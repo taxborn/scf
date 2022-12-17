@@ -2,11 +2,11 @@
 
 class Student:
 
-    def __init__(self, student_id, course_history):
-        self.gpa = None #get_gpa()
-        self.student_id = student_id  # I doubt we are getting names so I figure some type of identifier is necessary?
+    def __init__(self, student_id, course_history, dfw_rate):
+        self.student_id = student_id  # I doubt we are getting names, so I figure some type of identifier is necessary?
         self.course_history = course_history  # Tuple
         self.dfw_rate  # percentage of students with grade <= D, maybe this should be a variable in class.
+        self.gpa = None #get_gpa()
 
     def get_gpa(self) -> float:
         """
