@@ -1,11 +1,14 @@
 class Professor:
-    def __init__(self, credit_load, availability):
-        self.credit_load = credit_load
+    def __init__(self, availability, courses):
         self.availability = availability
+        # A list of tuple tuple of (Class, credits)
+        self.courses = courses
+        self.credit_load = getCreditLoad()
 
     def getCreditLoad(self):
-        return self.credit_load
+        credits = 0
 
+        for clazz in self.courses:
+            credits += clazz[1]
 
-    def test(self):
-        pass
+        return credits

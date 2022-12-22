@@ -17,7 +17,7 @@ class Course:
 
         # Otherwise if the course name starts with "MATH", then we know it's a
         # math course
-        if self.course_name.upper().startswith("MATH"):
+        if self.course_name.upper().startswith(("MATH", "STAT")):
             return True
 
         # Otherwise, return False
@@ -26,4 +26,5 @@ class Course:
 
 if __name__ == "__main__":
     c1 = Course("Math 121", "C-")
+    c2 = Course("STAT 354", "C-")
     print(c1.is_math)
