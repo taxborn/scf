@@ -14,6 +14,9 @@ class Student:
         self.dfw_rate = self.calculate_dfw_rate()
         self.gpa = self.calculate_gpa()
 
+        self.programming_experience = None
+        self.precalc = None  # has_precalc():
+
     def calculate_gpa(self):
         """
         Calculates the GPA of a Student. This takes into account that a student
@@ -57,9 +60,15 @@ class Student:
         """
         return 0
 
+    def get_start_class(self) -> bool:
+        """Decide whether student should start in CIS115 or CIS121"""
+        if self.programming_experience:
+            # TODO: check if enrolled class is MATH 115 or ahead. If true student can take CIS 121, else can
+            # if math enrollment >= MATH115: return True
+            # else: return False
+        else:
+            return False
 
-if __name__ == "__main__":
-    stud = Student("A", [("MATH-121", "B", 4),
-                   ("MATH-121", "A", 4), ("CIS-121", "B+", 4)])
-
-    print("gpa: " + str(stud.gpa))
+    # TODO
+    def has_precalc(self):
+        pass
