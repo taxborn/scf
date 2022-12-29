@@ -7,3 +7,7 @@
 # Test names themselves also need to be prefiexed with 'test_' for pytest to
 # pick it up. So writing a function that tests addition, do:
 # def test_addition(): instead of def addition():
+
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path('../src/models/').resolve()))
