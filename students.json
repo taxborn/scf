@@ -1,0 +1,44 @@
+{
+	"students": [
+		{
+			"id": "1",
+			"courses": [
+				{
+					"name": "MATH-121",
+					"grade": "A-",
+					"credits": 4
+				},
+				{
+					"name": "CIS-121",
+					"grade": "A-",
+					"credits": 4
+				},
+				{
+					"name": "CIS-122",
+					"grade": "A-",
+					"credits": 4
+				}
+			]
+		},
+		{
+			"id": "2",
+			"courses": [
+				{
+					"name": "MATH-121",
+					"grade": "A-",
+					"credits": 4
+				},
+				{
+					"name": "CIS-121",
+					"grade": "A-",
+					"credits": 4
+				},
+				{
+					"name": "CIS-122",
+					"grade": "A-",
+					"credits": 4
+				}
+			]
+		}
+	]
+}
