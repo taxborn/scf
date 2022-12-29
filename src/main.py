@@ -3,8 +3,8 @@ from models.student import Student
 
 
 def main():
-    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random data.
-    # Currently use this template: check students_generator.js
+    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
+    # data. Currently use this template in `students_generator.js`.
 
     students = get_list_of_students("students.json")
 
@@ -15,11 +15,15 @@ def main():
 
 
 def get_list_of_students(path: str) -> list[Student]:
+    """
+    Get the list of students. This can be arbitrary and have many different
+    back-ends, it just needs to return a list of Student objects
+    """
     student_data = json.load(open(path))
     students = []
 
+    # Loop over the "students" data in the JSON
     for student in student_data["students"]:
-        student_id = student["id"]
         courses = []
 
         for course in student["courses"]:
@@ -27,8 +31,12 @@ def get_list_of_students(path: str) -> list[Student]:
             courses.append(
                 (course["name"], course["grade"], course["credits"]))
 
-        std = Student(student_id, courses)
-        students.append(std)
+        # Check if the student has a course list. Not needed now, might want
+        # later for error checking.
+        # if len(courses) == 0:
+        #     raise Error
+        # Append the generated student the the list
+        students.append(Student(student["id"], courses))
 
     return students
 

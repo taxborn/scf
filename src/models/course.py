@@ -1,6 +1,8 @@
 class Course:
-    def __init__(self, course_name, min_grade, is_math: bool | None = None):
+    def __init__(self, course_name, credits, min_grade,
+                 is_math: bool | None = None):
         self.course_name = course_name
+        self.credits = credits
         # The minimum grade needed to consider
         self.min_grade = min_grade
         # A way to differentiate
@@ -22,9 +24,3 @@ class Course:
 
         # Otherwise, return False
         return False
-
-
-if __name__ == "__main__":
-    c1 = Course("Math 121", "C-")
-    c2 = Course("STAT 354", "C-")
-    print(c1.is_math)
