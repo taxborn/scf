@@ -1,9 +1,18 @@
 import json
-import models.student as stud
+import models.student.Student as Student
 
 
 def main():
-    student_data = json.load(open("students.json"))
+    students = get_list_of_students("students.json")
+
+    # calculateNumberInCIS121(students, number incoming)
+
+    for student in students:
+        print("Id={} GPA={}".format(student.student_id, student.gpa))
+
+
+def get_list_of_students(path: str) -> list[Student]:
+    student_data = json.load(open(path))
     students = []
 
     for student in student_data["students"]:
@@ -11,14 +20,14 @@ def main():
         courses = []
 
         for course in student["courses"]:
+            # TODO: Create a Course class from this
             courses.append(
                 (course["name"], course["grade"], course["credits"]))
 
-        std = stud.Student(student_id, courses)
+        std = Student(student_id, courses)
         students.append(std)
 
-    for student in students:
-        print(student.gpa)
+    return students
 
 
 if __name__ == "__main__":

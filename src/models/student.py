@@ -17,7 +17,7 @@ class Student:
         self.programming_experience = None
         self.precalc = None  # has_precalc():
 
-    def calculate_gpa(self):
+    def calculate_gpa(self) -> float:
         """
         Calculates the GPA of a Student. This takes into account that a student
         may have taken a course many times, and only counts their higest grade
@@ -52,7 +52,7 @@ class Student:
         # tbd why I need to divide by 4 but it works
         return grade_points / len(class_history) / 4.0
 
-    def calculate_dfw_rate(self):
+    def calculate_dfw_rate(self) -> float:
         """
         Sets the DFW (D / F / Withdraw) rate of the student.
 
@@ -66,6 +66,7 @@ class Student:
             # TODO: check if enrolled class is MATH 115 or ahead. If true student can take CIS 121, else can
             # if math enrollment >= MATH115: return True
             # else: return False
+            return True
         else:
             return False
 
