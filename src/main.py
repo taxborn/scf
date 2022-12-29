@@ -1,8 +1,11 @@
 import json
-import models.student.Student as Student
+from models.student import Student
 
 
 def main():
+    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random data.
+    # Currently use this template: check students_generator.js
+
     students = get_list_of_students("students.json")
 
     # calculateNumberInCIS121(students, number incoming)
