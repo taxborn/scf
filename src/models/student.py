@@ -1,34 +1,65 @@
 class Student:
-    def __init__(self, student_id, course_history, dfw_rate):
+    def __init__(self, student_id, course_history):
         # I doubt we are getting names, so I figure some type of identifier is
         # necessary?
         self.student_id = student_id
         # A list of tuples in the format [(Course, Grade, Credits)]. e.g.
-        # ("MATH-122", "A")
+        # ("MATH-122", "A", 4)
+        # TODO: Change this to a list of tuples, containing the Course class
+        # and the grade the student got.
         self.course_history: list[tuple[str, str, int]] = course_history
         # percentage of students with grade <= D, maybe this should be a
         # variable in class.
-        self.dfw_rate
-        self.gpa = None  # get_gpa()
+        # TODO: Calculate based off of what? number of classes retaken?
+        self.dfw_rate = self.calculate_dfw_rate()
+        self.gpa = self.calculate_gpa()
 
-    def get_gpa(self) -> float:
+    def calculate_gpa(self):
         """
-        Calculates the GPA of a Student. Calculates off of self.course_history
+        Calculates the GPA of a Student. This takes into account that a student
+        may have taken a course many times, and only counts their higest grade
+        achieved in that course.
         """
+        grade_map = {"A+": 4.0, "A": 4.0, "A-": 3.67, "B+": 3.33, "B": 3.0,
+                     "B-": 2.67, "C+": 2.33, "C": 2.0, "C-": 1.67, "D+": 1.33,
+                     "D": 1.0, "D-": 0.67, "F": 0, "P": 0, "F": 0}
+        class_history = {}
         grade_points = 0
-        # TODO: How to handle W/Z/I?
-        grade_dict = {"A+": 4.0, "A": 4.0, "A-": 3.67, "B+": 3.33, "B": 3.0,
-                      "B-": 2.67, "C+": 2.33, "C": 2.0, "C-": 1.67, "D+": 1.33,
-                      "D": 1.0, "D-": 0.67, "F": 0, "P": 0, "F": 0}
 
-        for course in self.course_history:
-            # TODO: Create a cleaning function to remove courses that were
-            # repeated, and take the highest results.
+        # Fill the dictionary with { "course": [grade(s) the student got)
+        for (course, grade, credits) in self.course_history:
+            class_history.setdefault(course, []).append((grade, credits))
 
-            # TODO: Take into account P/F classes grades.
-            #                Credits                Grade
-            grade_points += course[2] * grade_dict[course[1]]
+        for courses in class_history:
+            # class info is an array containing [(Grade, Credits)], e.g.
+            # [("A", 4), ("B+", 4)]
+            classes_list = class_history[courses]
+            highest_grade = 0
 
-        gpa = grade_points / len(self.course_history)
-        self.gpa = gpa
-        return gpa
+            # loops over each grade found for a course
+            for course in classes_list:
+                # gets the highest grade between the current highest and the
+                # grade being checked
+                highest_grade = max(highest_grade, grade_map[course[0]])
+
+            # grade points = grade_from_map * credits
+            grade_points += highest_grade * classes_list[0][1]
+
+        # len(dic) is how many successful classes taken,
+        # tbd why I need to divide by 4 but it works
+        return grade_points / len(class_history) / 4.0
+
+    def calculate_dfw_rate(self):
+        """
+        Sets the DFW (D / F / Withdraw) rate of the student.
+
+        Current ideas: Getting # of classes retaken (number of duplicates in self.course_history)
+        """
+        return 0
+
+
+if __name__ == "__main__":
+    stud = Student("A", [("MATH-121", "B", 4),
+                   ("MATH-121", "A", 4), ("CIS-121", "B+", 4)])
+
+    print("gpa: " + str(stud.gpa))
