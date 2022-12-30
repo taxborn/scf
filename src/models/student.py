@@ -3,11 +3,9 @@ class Student:
         # I doubt we are getting names, so I figure some type of identifier is
         # necessary?
         self.student_id = student_id
-        # A list of tuples in the format [(Course, Grade, Credits)]. e.g.
-        # ("MATH-122", "A", 4)
-        # TODO: Change this to a list of tuples, containing the Course class
-        # and the grade the student got.
-        self.course_history: list[tuple[str, str, int]] = course_history
+        # A list of tuples in the format [(Course Object, Grade)]. e.g.
+        # (Course("MATH-122", 4, "C-"), "A")
+        self.course_history = course_history
         # percentage of students with grade <= D, maybe this should be a
         # variable in class.
         # TODO: Calculate based off of what? number of classes retaken?
@@ -30,8 +28,9 @@ class Student:
         grade_points = 0
 
         # Fill the dictionary with { "course": [grade(s) the student got)
-        for (course, grade, credits) in self.course_history:
-            class_history.setdefault(course, []).append((grade, credits))
+        for (course, grade) in self.course_history:
+            class_history.setdefault(course.course_name,
+                                     []).append((grade, course.credits))
 
         for courses in class_history:
             # class info is an array containing [(Grade, Credits)], e.g.

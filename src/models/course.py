@@ -7,6 +7,9 @@ class Course:
         self.min_grade = min_grade
         # A way to differentiate
         self.is_math = self.is_math_course(is_math)
+        # Priority level B: check if a student tried to register but was
+        # waitlisted, was full, etc..
+        # self.attempted_to_register = False
 
     def is_math_course(self, is_math: bool | None = None) -> bool:
         """
