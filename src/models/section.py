@@ -1,8 +1,9 @@
 class Section:
-    def __init__(self, class_name: str, section_id: int, num_students: int):
-        self.professor = None
-        # TODO: Should probably store the actual Course object
-        self.class_name = class_name
+    # TODO: Re-add typing to class objects. Currently importing other classes
+    # causes issues with pytest
+    def __init__(self, course, section_id: int, num_students: int, professor=None):
+        self.professor = professor
+        self.course = course
         self.section_id = section_id
         # Should also be in the Course object?
         self.num_students = num_students

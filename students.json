@@ -1,3616 +1,6445 @@
 {
   "students": [
     {
-      "id": "63addb11d3671589b5a17f05",
+      "id": "63af0d8aedbecd0fd6cf43b6",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-115",
           "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb110462df7c07a7a04c",
+      "id": "63af0d8a9273f43e08104e2d",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a33809e4cca0defdf",
+      "courses": [
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
-        {
-          "name": "CIS-122",
-          "grade": "A-",
-          "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11d766ba1b60513061",
-      "courses": [
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11c28b9236f017f734",
+      "id": "63af0d8a88cdbee7bbc2dc4b",
       "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1141e701d2007f96e3",
+      "id": "63af0d8a30d869215f7dfcef",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11cea28d6a801aaf84",
+      "id": "63af0d8ae6620375b8381686",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ab560350f1e805dc2",
+      "courses": [
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-223",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11ee73c7295eb32acc",
+      "id": "63af0d8a7f6314d8133e1fb7",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11fdab30045df7958b",
+      "id": "63af0d8ad7eb3fd259b088a4",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11b1ac1f5fd269a730",
-      "courses": [
+        },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1116cb499ae131d5c8",
+      "id": "63af0d8ae27e5bd2a0663745",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11ff3db6e3603168ec",
+      "id": "63af0d8a36f267eb57d48b7c",
       "courses": [
         {
-          "name": "CIS-122",
+          "name": "CIS-121",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb112da342fbe2aa2b1e",
+      "id": "63af0d8ab16aa4dfa012300c",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11d9e3626b8e4b0440",
+      "id": "63af0d8acd0e56f09467140d",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a13a66dea5c32dd81",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8adc8633793f388029",
+      "courses": [
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1160d0ff0abeab8731",
-      "courses": [
+        },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a2b3123c6677634d",
+      "id": "63af0d8aad3d3d85b6db5a64",
       "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
-        {
-          "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B-",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
+          "name": "CIS-223",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11ff4b2eef781631b1",
+      "id": "63af0d8aca5256f58bc8cbd5",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb117582d2ccce3d7800",
+      "id": "63af0d8a3061748a13fb33d9",
       "courses": [
-        {
-          "name": "CIS-121",
-          "grade": "B-",
-          "credits": 4
-        },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1185e05ba886c696ca",
+      "id": "63af0d8a0a4f98102abc8781",
       "courses": [
-        {
-          "name": "MATH-121",
-          "grade": "B",
-          "credits": 4
-        },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a25cd7c0a45371307",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-122",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb111010d442fa25a567",
+      "id": "63af0d8ae4dcc5a9d4db5c64",
       "courses": [
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb110a8fe1fcb26e4e85",
-      "courses": [
+        },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11678e9b69c9a6e64b",
+      "id": "63af0d8aca414f7d4c487059",
       "courses": [
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B+",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11bf404ff9916b38bd",
+      "id": "63af0d8af81d73dd11fb722a",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1154845ce8258a1e79",
-      "courses": [
+        },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a8b750970187c2d41",
+      "courses": [
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-121",
           "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11b115b6b09f753d9f",
+      "id": "63af0d8ab94f5130cc1c21bc",
       "courses": [
         {
-          "name": "CIS-121",
+          "name": "CIS-115",
           "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
+        {
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a09b3a4879fad6fa5",
+      "courses": [
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb116762727e7bab7421",
+      "id": "63af0d8aee56861248a5f772",
       "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
-        {
-          "name": "CIS-223",
-          "grade": "B",
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a4fb208deae5e6825",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-121",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-115",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1197022e4a8aacf632",
+      "id": "63af0d8ad9513f64b2829db7",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11f9034a8229398562",
+      "id": "63af0d8a7afb9e686d1d1e7a",
       "courses": [
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a11af5afb6b1eb661",
+      "courses": [
+        {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb111bd944da1bcfcf22",
+      "id": "63af0d8ad831bba347a56a83",
       "courses": [
         {
           "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
           "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb114f7296c0268f0fda",
+      "id": "63af0d8abc85fbe0e901bdc3",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11b36d7e2d305b6b9f",
+      "id": "63af0d8ad4877cc898b8c2cc",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb115ea3975f576c5c1c",
-      "courses": [
+        },
         {
-          "name": "CIS-122",
+          "name": "MATH-121",
           "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a928ea628dc013164",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-121",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B+",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1170648adfb8d41b9b",
+      "id": "63af0d8a2a82c5e9d9ec6da7",
       "courses": [
-        {
-          "name": "MATH-121",
-          "grade": "B+",
-          "credits": 4
-        },
         {
-          "name": "CIS-223",
+          "name": "CIS-121",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11b8191bf59ccab4ea",
+      "id": "63af0d8ad23263d235c2c62b",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11b3deaf6d32a69be5",
+      "id": "63af0d8ae2581a517b39f418",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B+",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11d32f9804f27997ed",
-      "courses": [
+        },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "CIS-121",
           "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11baaa8510a2250a6c",
+      "id": "63af0d8a2599dfac8777a392",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1138845b1f4bc42c72",
+      "id": "63af0d8a6e0836ccddcecb42",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "MATH-121",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
-        {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11e63e4cd48fa294b9",
-      "courses": [
+        },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8adbf1d75068f8daed",
+      "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a5609bcf8e1d446b",
+      "id": "63af0d8a43812cf704e62f7d",
       "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1164d25f051291765c",
+      "id": "63af0d8a6c4b6ef500c77f98",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a0eec529fdc55e5f",
+      "id": "63af0d8a14571d34c141e928",
       "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1140d130746c6e5148",
+      "id": "63af0d8a85117f3121355da9",
       "courses": [
         {
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb111e0137c5beb99f49",
-      "courses": [
+        },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb114dcd4a27aaed7351",
-      "courses": [
+        },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11c133a662e2533f99",
+      "id": "63af0d8ab3b2c96dab536ed3",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-121",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
           "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
           "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11f62870a4bbd292cb",
+      "id": "63af0d8afecc0cfe0cb4dd42",
       "courses": [
         {
           "name": "MATH-121",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb116843001e712c0fe1",
-      "courses": [
+        },
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11e5aa432e26c14a91",
+      "id": "63af0d8a2ba1e997517e23cf",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B-",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11dd0623a504aad75a",
+      "id": "63af0d8a5720058eab73b867",
       "courses": [
-        {
-          "name": "CIS-121",
-          "grade": "B-",
-          "credits": 4
-        },
         {
           "name": "MATH-121",
           "grade": "A",
-          "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11b780648d2e34944b",
-      "courses": [
-        {
-          "name": "MATH-121",
-          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11bd8bf682a0a39fbf",
+      "id": "63af0d8a4791b3865d7eebde",
       "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8af1b6d5b7f782680d",
+      "courses": [
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11d549013d6e0f9186",
-      "courses": [
+        },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11cab184858e8a0308",
+      "id": "63af0d8a6f0e0065b11de399",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-223",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1186ad848835e1835d",
+      "id": "63af0d8a78d195a45f24b1ba",
       "courses": [
-        {
-          "name": "CIS-121",
-          "grade": "B-",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
-          "grade": "B",
-          "credits": 4
-        },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11004b483c862658eb",
+      "id": "63af0d8a58d7ace930bc3712",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
-          "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb111f676b6d41165c37",
-      "courses": [
-        {
-          "name": "MATH-121",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11aef877be8782d4a1",
+      "id": "63af0d8a5bd11588ba344d56",
       "courses": [
-        {
-          "name": "CIS-223",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B+",
-          "credits": 4
-        },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb112bd3568df38bd654",
+      "id": "63af0d8a32c655b33bb72030",
       "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11d29fcc5c52c55362",
+      "id": "63af0d8ac3e9925a8e0f1209",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11bcce6b82e09cae70",
+      "id": "63af0d8a7622d5531872b912",
       "courses": [
         {
           "name": "CIS-122",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
-          "grade": "A",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb117444fe8c19b428d0",
+      "id": "63af0d8a43d41b8a9c2a4846",
       "courses": [
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb112c594be52f231f1c",
+      "id": "63af0d8af3e8e9a8c73901f0",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B+",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11cace5ead3c427b5b",
+      "id": "63af0d8ad5f2ac593c1de203",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11133ab1f2181f0471",
+      "id": "63af0d8a79a197cbbf9b60c5",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11c456c4e68c6b2d1d",
+      "id": "63af0d8a5ac34f4f05a7a3af",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11d3d04a4a70b80b8a",
-      "courses": [
+        },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a6d8c39647a3b4afa",
+      "courses": [
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb112b6a192d141f8295",
+      "id": "63af0d8a65a38afab611f9e3",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1100ada3c8393d44b4",
+      "id": "63af0d8a7db65c2e772b5ed9",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb115aeaefa1ceb71caf",
+      "id": "63af0d8ac3d4e2e022ca99f4",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1150001511ecbcc300",
-      "courses": [
+        },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1151f5142f5a6af375",
-      "courses": [
+        },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11932cfc4fabfdc58a",
+      "id": "63af0d8a362a584c38982eba",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a9661c26ac20b44f",
+      "id": "63af0d8ac6d77f7947f4edb3",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11667eef60fa608484",
+      "id": "63af0d8a6a3c82a45c1b8b5c",
       "courses": [
-        {
-          "name": "MATH-121",
-          "grade": "A-",
-          "credits": 4
-        },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
-        {
-          "name": "CIS-122",
-          "grade": "B",
-          "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1167f22491f11f4ec6",
-      "courses": [
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1171f4bd0f6691ec1b",
+      "id": "63af0d8a183b77f7ef7ff75f",
       "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11898d866b4df60e69",
+      "id": "63af0d8a56da7612f0530b5d",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11692d5f9c66cce906",
+      "id": "63af0d8a2dbb936c05bc3d53",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "B+",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb1101e3c3bb9b197a03",
-      "courses": [
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-121",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11edab85f900ccbffb",
+      "id": "63af0d8a6c73353a7c087df6",
       "courses": [
-        {
-          "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
         {
           "name": "CIS-122",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B-",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
           "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11e0abfa40edb41a8b",
+      "id": "63af0d8a97cd489fb6fcf893",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11d500afcc0002d7c8",
+      "id": "63af0d8ac437dce1345ec8f7",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
           "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb111aea6e2f964ca9be",
+      "id": "63af0d8a3b12ea3bb228a69f",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a914c9867378a5c94",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aae2d3477140a5cf3",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aa57665e78adcf0ed",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8acbd88e5caab239bb",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a4ab8869ee2afe171",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8acb34f4834f33e6d3",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8adb5ef54292972573",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8acf25f047d63a94de",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8afd78a4f0af56eaec",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a53f2b9de93a3ba51",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ae63f0b4fad416d2e",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a281c08b85508dc28",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a10190c2e3ac44418",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a29c84c98e8c8fbf7",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a2157f962c7f045ea",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8abea76afd26b132b3",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aaf7ae0bc9c01e898",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aec14517f675d6723",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aa693c06fa905374b",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a8cde4ec26d5e77d5",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a287903eeaa101ba5",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a42e92244e3b089e1",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a7f58620c7cc64eac",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a773f79343dc69886",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a8e9ec221179804fe",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8add07efa13224f842",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a088007cd518f7b18",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a72c12b3a2fa84f46",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ae7052e786218a280",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a93b08bb809cc9462",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a2e542eef2e91ebe0",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ac100fe4f3129de28",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a26b7aa754fbf2469",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a3aeea23455ef4420",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a847ffde3d1dece91",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aff373a601b334237",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8aed31c850a4bf0f43",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a0ff64e88ba0a36eb",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ae5836c04cc4d49b3",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ad2543461c31f8f50",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a7bc9cb79c09ee84f",
+      "courses": [
+        {
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a4024574b5e75e3ca",
+      "courses": [
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "B+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ab6c81c0f962dd907",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
     },
     {
-      "id": "63addb11eaf2d2d462dd2237",
+      "id": "63af0d8a1e77ca7ca0f21f75",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-121",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8ad82e173e8ab103d7",
+      "courses": [
         {
           "name": "CIS-122",
-          "grade": "A",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1174acf360ca65114c",
+      "id": "63af0d8ace3737ecebc04791",
       "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a55bb2522bedfba7",
+      "id": "63af0d8a645579424c5c189a",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "A-",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "D+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb116379ebc7418c6be1",
+      "id": "63af0d8a5549a6c5ab0f2a3e",
       "courses": [
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11ac9337a361837ff8",
-      "courses": [
+        },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a7972f9dc962dd541",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "CIS-122",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1115b8cab85b62f552",
+      "id": "63af0d8ab05d3eaea61b424a",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-223",
           "grade": "B-",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "D+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
-          "credits": 4
-        },
-        {
-          "name": "CIS-121",
-          "grade": "B-",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11d35eff6e2cea5263",
+      "id": "63af0d8a69cf2b0b0703b494",
       "courses": [
         {
-          "name": "CIS-122",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb117166c14cbb4f8884",
+      "id": "63af0d8a743e72d8d0b8d6b2",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "B+",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
-          "credits": 4
-        },
-        {
-          "name": "MATH-121",
-          "grade": "B+",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb118f7d3464aab3e4d4",
+      "id": "63af0d8a9aa876e477e58a09",
       "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11235c845fed6a8100",
-      "courses": [
+        },
         {
-          "name": "MATH-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-223",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11221dc4cf82e756fc",
+      "id": "63af0d8aa3be28fa36480d05",
       "courses": [
         {
-          "name": "CIS-121",
+          "name": "CIS-115",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A-",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a69c3aa0360ad3c6c",
+      "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
           "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-223",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a75873381727e7855",
+      "courses": [
+        {
+          "name": "CIS-115",
+          "grade": "D+",
+          "waitlisted_or_full": true,
+          "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a0abb66c5ba2db6d",
+      "id": "63af0d8a3b928f6dfcd670aa",
       "courses": [
+        {
+          "name": "CIS-223",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
         {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "F",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb110fd0b3bba47048b2",
+      "id": "63af0d8af51f4a37d94eb238",
       "courses": [
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8afa837e4f5ab64b99",
+      "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B",
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a4066a20b3895cb1c",
+      "courses": [
         {
           "name": "CIS-121",
-          "grade": "A-",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B+",
+          "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb112b7fe3d288577ab2",
+      "id": "63af0d8ab35a70787e0015cd",
       "courses": [
-        {
-          "name": "CIS-121",
-          "grade": "A-",
-          "credits": 4
-        },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a658f92a0f4dde2f7",
+      "courses": [
         {
-          "name": "MATH-121",
+          "name": "CIS-122",
           "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb114e7c8563fee54ec8",
+      "id": "63af0d8a185194220bd02b50",
       "courses": [
         {
-          "name": "MATH-121",
-          "grade": "A-",
+          "name": "CIS-115",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "MATH-121",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "CIS-122",
           "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
-        },
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a08dafe80f837e1a2",
+      "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
           "name": "MATH-121",
-          "grade": "A",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb1101c5e31fdff79eab",
+      "id": "63af0d8a6e45bf2dffbe8fb3",
       "courses": [
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "F",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
+          "name": "CIS-115",
+          "grade": "C+",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
           "name": "MATH-121",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11ffca9330196a69da",
+      "id": "63af0d8aba0e5d8a55928f5e",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-115",
+          "grade": "A",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "B",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A-",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
-        }
-      ]
-    },
-    {
-      "id": "63addb11a63826a8e3474f90",
-      "courses": [
+        },
         {
           "name": "CIS-122",
-          "grade": "A-",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "MATH-121",
-          "grade": "A-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "MATH-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
           "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
+          "name": "MATH-121",
+          "grade": "F",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a208c76dd28657b53",
+      "courses": [
+        {
+          "name": "MATH-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-122",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "C-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11222d304ae1419ecc",
+      "id": "63af0d8a9d421831db0c813c",
       "courses": [
         {
           "name": "CIS-121",
-          "grade": "B-",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-122",
+          "name": "CIS-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-115",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "D",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "C",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A-",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "A",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "B+",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb111605903079101d8d",
+      "id": "63af0d8aa4a3ae2250a5968b",
       "courses": [
-        {
-          "name": "CIS-223",
-          "grade": "A-",
-          "credits": 4
-        },
         {
-          "name": "CIS-121",
+          "name": "MATH-121",
           "grade": "A",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B+",
+          "name": "CIS-122",
+          "grade": "B",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B+",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb111fce0d42d8c2f187",
+      "id": "63af0d8af675b391455655ee",
       "courses": [
         {
           "name": "CIS-122",
-          "grade": "B",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "A",
+          "grade": "D",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-223",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-121",
           "grade": "B",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B+",
+          "name": "CIS-121",
+          "grade": "B-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "B-",
+          "name": "MATH-121",
+          "grade": "B+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "MATH-121",
+          "name": "CIS-115",
           "grade": "B+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "CIS-121",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11ba6d3fbd5bbb5e3d",
+      "id": "63af0d8a806cab9c9164d693",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B",
+          "name": "CIS-115",
+          "grade": "A-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "CIS-121",
+          "name": "CIS-115",
           "grade": "A",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-121",
-          "grade": "A",
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
+        {
+          "name": "CIS-122",
+          "grade": "C",
+          "waitlisted_or_full": true,
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "63af0d8a01a4491551d8b7df",
+      "courses": [
         {
           "name": "CIS-121",
-          "grade": "A-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-223",
           "grade": "B-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-115",
+          "grade": "B",
+          "waitlisted_or_full": true,
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C-",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]
     },
     {
-      "id": "63addb11a97022e48c345d8d",
+      "id": "63af0d8a5e07752d3962acf5",
       "courses": [
         {
-          "name": "CIS-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-121",
-          "grade": "B",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-223",
+          "grade": "D-",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "C+",
+          "waitlisted_or_full": true,
           "credits": 4
         },
         {
-          "name": "MATH-121",
-          "grade": "B-",
+          "name": "CIS-122",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
-          "name": "CIS-223",
-          "grade": "A",
+          "name": "MATH-121",
+          "grade": "A-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-223",
-          "grade": "B+",
-          "credits": 4
-        },
-        {
-          "name": "CIS-122",
-          "grade": "A",
+          "grade": "D-",
+          "waitlisted_or_full": false,
           "credits": 4
         },
         {
           "name": "CIS-122",
-          "grade": "B-",
+          "grade": "C+",
+          "waitlisted_or_full": false,
           "credits": 4
         }
       ]

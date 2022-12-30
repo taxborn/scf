@@ -1,45 +1,22 @@
 import json
 from models.student import Student
 from models.course import Course
+import utils
 
 
 def main():
     # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
     # data. Currently use this template in `students_generator.js`.
-
-    students = get_list_of_students("students.json")
-
-    # calculateNumberInCIS121(students, number incoming)
+    students = utils.get_list_of_students("students.json")
 
     for student in students:
-        print("Id={} GPA={}".format(student.student_id, student.gpa))
+        print("student: Id={} GPA={} DFW={}".format(
+            student.student_id, student.gpa, student.dfw_rate))
 
+        print("math classes: {}".format(student.get_courses("MATH")))
+        print("cis classes: {}\n".format(student.get_courses("CIS")))
 
-def get_list_of_students(path: str) -> list[Student]:
-    """
-    Get the list of students. This can be arbitrary and have many different
-    back-ends, it just needs to return a list of Student objects
-    """
-    student_data = json.load(open(path))
-    students = []
-
-    # Loop over the "students" data in the JSON
-    for student in student_data["students"]:
-        courses = []
-
-        for course in student["courses"]:
-            # TODO: Create a Course class from this
-            courses.append(
-                (course["name"], course["grade"], course["credits"]))
-
-        # Check if the student has a course list. Not needed now, might want
-        # later for error checking.
-        # if len(courses) == 0:
-        #     raise Error
-        # Append the generated student the the list
-        students.append(Student(student["id"], courses))
-
-    return students
+    # cis121students = calculateNumberInCIS121(students, number incoming)
 
 def main2():
     CIS115 = Course("CIS-115", 4, "C", False)
