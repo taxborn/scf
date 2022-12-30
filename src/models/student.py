@@ -63,7 +63,7 @@ class Student:
         d_or_f = 0
 
         for course in self.course_history:
-            # Check if a student has retaken a class, otherwise store that we 
+            # Check if a student has retaken a class, otherwise store that we
             # have seen the class
             if course[0].course_name in seen:
                 retaken += 1
@@ -80,7 +80,7 @@ class Student:
     def get_start_class(self) -> bool:
         """Decide whether student should start in CIS115 or CIS121"""
         if self.programming_experience:
-            # TODO: check if enrolled class is MATH 115 or ahead. If true 
+            # TODO: check if enrolled class is MATH 115 or ahead. If true
             # student can take CIS 121, else can
             # if math enrollment >= MATH115: return True
             # else: return False
@@ -91,3 +91,20 @@ class Student:
     # TODO
     def has_precalc(self):
         pass
+
+    def get_courses(self, start: str) -> dict[str, list[str]]:
+        """
+        Gets all the courses that have the starting course name. E.g. :
+        student.get_courses("MATH") gives you a dictionary of all the
+        math classes the student took and their grades
+
+        TODO: Add semester
+        """
+        class_history = {}
+        # Fill the dictionary with { "course": [grade(s) the student got)
+        for (course, grade) in self.course_history:
+            if course.course_name.upper().startswith(start.upper()):
+                class_history.setdefault(course.course_name,
+                                         []).append(grade)
+
+        return class_history

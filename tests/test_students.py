@@ -48,3 +48,17 @@ def test_retaking_and_grades_impacts_DFW():
         "A", [(math122, "A"), (math122, "D"), (cis121, "A")])
 
     assert stud.dfw_rate == 2/3
+
+
+def test_getting_math_classes():
+    math122 = course.Course("MATH-122", 4, "C-")
+    cis121 = course.Course("CIS-121", 4, "C-")
+
+    stud = student.Student(
+        "A", [(math122, "A"), (math122, "D"), (cis121, "A")])
+
+    math_classes = stud.get_courses("MATH")
+
+    # One class, taken twice
+    assert len(math_classes) == 1
+    assert len(math_classes["MATH-122"]) == 2
