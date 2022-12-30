@@ -53,7 +53,7 @@ def main2():
 
     CIS121.add_prereq(MATH121)
 
-    print(CIS121.check_prereqs())
+    print(CIS121.see_prereqs())
 
     print(CIS121.set_prereq_given_course_sequence())
 
