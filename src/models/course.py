@@ -30,15 +30,19 @@ class Course:
         return False
 
     def create_course_sequence(self, courses: list):
+        """Encapsulates a course sequence as a list."""
         self.course_sequence = courses
 
     def add_prereq(self, course):
+        """Adds given course to prereq list."""
         self.prereqs.append(course)
 
     def see_prereqs(self):
+        """Returns list of Course objects prerequisite classes."""
         return [course for course in self.prereqs]
 
     def set_prereq_given_course_sequence(self):
+        """Given the sequence, it's prior index is appended to prereq list."""
         for i in range(len(self.course_sequence)):
             if self.course_sequence[i].course_name == self.course_name:
                 self.prereqs.append(self.course_sequence[i-1])
@@ -46,12 +50,15 @@ class Course:
         return self.prereqs
 
     def add_prereq_for(self, course):
+        """Add to the list of courses that the course is a prerequisite for."""
         self.prereq_for.append(course)
 
     def see_prereq_for(self):
+        """Returns a list of Course objects the course is a prerequisite for"""
         return [course for course in self.prereq_for]
 
     def set_prereq_for_given_course_sequence(self):
+        """Given the sequence, its next index is appended to prereq_for list"""
         for i in range(len(self.course_sequence)):
             if self.course_sequence[i].course_name == self.course_name:
                 self.prereq_for.append(self.course_sequence[i+1])
