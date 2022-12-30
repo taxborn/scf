@@ -55,9 +55,28 @@ class Student:
         """
         Sets the DFW (D / F / Withdraw) rate of the student.
 
-        Current ideas: Getting # of classes retaken (number of duplicates in self.course_history)
+        Current ideas: Getting # of classes retaken (number of duplicates in
+        self.course_history) as a proportion of total classes taken.
         """
-        return 0
+        seen = set()
+        retaken = 0
+        d_or_f = 0
+
+        for course in self.course_history:
+            # Check if a student has retaken a class
+            print("course[0] = {}".format(course[0]))
+            print("course = {}".format(course))
+            if course[0].course_name in seen:
+                retaken += 1
+            else:
+                seen.add(course[0].course_name)
+
+            # Check if the grade was a D/F. There might be a better API for
+            # this but ¯\_(ツ)_/¯
+            if course[1] == "F" or course[1] == "D-" or course[1] == "D" or course[1] == "D+":
+                d_or_f += 1
+
+        return (retaken + d_or_f) / len(self.course_history)
 
     def get_start_class(self) -> bool:
         """Decide whether student should start in CIS115 or CIS121"""

@@ -20,8 +20,8 @@ class Course:
         if is_math is not None:
             return is_math
 
-        # Otherwise if the course name starts with "MATH", then we know it's a
-        # math course
+        # Otherwise if the course name starts with "MATH" or "STAT", then we 
+        # know it's a math course
         if self.course_name.upper().startswith(("MATH", "STAT")):
             return True
 

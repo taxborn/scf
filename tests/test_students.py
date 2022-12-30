@@ -28,3 +28,23 @@ def test_rand_student():
         "A", [(math122, "B-"), (math122, "C"), (cis121, "C+"), (cis121, "D")])
 
     assert stud.gpa == 2.5
+
+
+def test_retaking_impacts_DFW():
+    math122 = course.Course("MATH-122", 4, "C-")
+    cis121 = course.Course("CIS-121", 4, "C-")
+
+    stud = student.Student(
+        "A", [(math122, "A"), (math122, "B-"), (cis121, "A")])
+
+    assert stud.dfw_rate == 1/3
+
+
+def test_retaking_and_grades_impacts_DFW():
+    math122 = course.Course("MATH-122", 4, "C-")
+    cis121 = course.Course("CIS-121", 4, "C-")
+
+    stud = student.Student(
+        "A", [(math122, "A"), (math122, "D"), (cis121, "A")])
+
+    assert stud.dfw_rate == 2/3
