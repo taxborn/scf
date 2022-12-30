@@ -71,5 +71,6 @@ class Student:
             return False
 
     # TODO
-    def has_precalc(self):
-        pass
+    # - Check if student can move to next class (Check if it has defined prereqs from Course class)
+    # -
+

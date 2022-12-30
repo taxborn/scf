@@ -10,7 +10,7 @@ class Course:
         # Course sequencing
         self.course_sequence = None
         self.prereqs: list[Course] = []
-        self.prereq_for = []
+        self.prereq_for: list[Course] = []
 
     def is_math_course(self, is_math: bool | None = None) -> bool:
         """
@@ -31,10 +31,11 @@ class Course:
 
     def create_course_sequence(self, courses: list):
         self.course_sequence = courses
+
     def add_prereq(self, course):
         self.prereqs.append(course)
 
-    def check_prereqs(self):
+    def see_prereqs(self):
         return [course for course in self.prereqs]
 
     def set_prereq_given_course_sequence(self):
@@ -46,7 +47,8 @@ class Course:
 
     def add_prereq_for(self, course):
         self.prereq_for.append(course)
-    def is_prereq_for(self):
+
+    def see_prereq_for(self):
         return [course for course in self.prereq_for]
 
     def set_prereq_for_given_course_sequence(self):
