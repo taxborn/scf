@@ -19,7 +19,7 @@ def main():
     # Step 2: Create a course sequence. All this is doing is hooking each
     # Course up to one another
     courses = [math098, math121, cis115, cis121, cis122, cis223, cis224]
-    Course.create_course_sequence(courses[2:len(courses)-1])
+    Course.create_course_sequence(courses[2:len(courses)])
     cis121.add_prereq(math121)
 
     # Step 3: Construct a list of students. This is currently loaded in
@@ -33,8 +33,6 @@ def main():
     # Print the current class sizes
     for course in courses:
         course.print_course()
-
-    print(students[0].highest_course_taken("POL-111", courses))
 
     # Step 5: Simulate a semester
 

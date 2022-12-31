@@ -28,12 +28,14 @@ def main():
         f1.write("\"courses\":[")
 
         # This determines how far they go in the courses
-        courses_student_takes = random.randint(2, len(courses) - 1)
+        courses_student_takes = random.randint(2, len(courses))
         grade = random.randint(0, len(grades) - 1)
 
         retake_roll = random.randint(0, 100)
         for course in range(courses_student_takes):
+            # Give the course a chance of being retaken.
             if retake_roll <= probability_to_retake * 100:
+                # Regenerate the grade index
                 grade = random.randint(0, len(grades) - 1)
 
                 f1.write(
