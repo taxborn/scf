@@ -20,6 +20,7 @@ def main():
     # Course up to one another
     courses = [math098, math121, cis115, cis121, cis122, cis223, cis224]
     Course.create_course_sequence(courses[2:len(courses)])
+
     cis121.add_prereq(math121)
 
     # Step 3: Construct a list of students. This is currently loaded in
@@ -35,8 +36,15 @@ def main():
         course.print_course()
 
     # Step 5: Simulate a semester
+    for i in range(len(courses) - 1, 0, -1):
+        # Update the population here through indexing
 
-    # cis121students = calculateNumberInCIS121(students, number incoming)
+        # Switch 0.75 here with the classes failure rate
+        courses[i].class_size = int(0.75 * courses[i - 1].class_size)
+
+    # Print the current class sizes
+    for course in courses:
+        course.print_course()
 
 
 if __name__ == "__main__":

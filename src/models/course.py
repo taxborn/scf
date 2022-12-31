@@ -65,9 +65,11 @@ class Course:
             highest_cis = student.highest_course_taken("CIS-115", courses)
             if highest_cis:
                 highest_cis.class_size += 1
+            """
             highest_math = student.highest_course_taken("MATH-121", courses)
             if highest_math:
                 highest_math.class_size += 1
+            """
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""

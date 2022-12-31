@@ -14,8 +14,8 @@ def main():
     # write the header
     f1.write("{\"students\":[")
 
-    number_of_existing_students = 50
-    number_of_incoming_freshman = 50
+    number_of_existing_students = 300
+    number_of_incoming_freshman = 100
     probability_to_retake = 0.05
     probability_to_have_programming_experience = 0.20
 
@@ -55,7 +55,7 @@ def main():
         if i != number_of_existing_students and number_of_incoming_freshman > 0:
             f1.write(",\n")
 
-    for i in range(number_of_existing_students):
+    for i in range(number_of_incoming_freshman):
         # the students id
         f1.write("{\"id\": \"" + uuid.uuid4().hex + "\",\n")
         # if the student exists, let's give them programming experience
@@ -87,7 +87,7 @@ def main():
 
             f1.write("\n")
         f1.write("]\n}")
-        if i != number_of_existing_students - 1:
+        if i != number_of_incoming_freshman - 1:
             f1.write(",\n")
 
             # close the header

@@ -30,6 +30,9 @@ def get_list_of_students(path: str, courses: list[Course]) -> list[Student]:
         # if len(courses) == 0:
         #     raise Error
         # Append the generated student the the list
-        students.append(Student(student["id"], crss))
+        stud = Student(student["id"], crss)
+        stud.programming_experience = student["programming_experience"]
+
+        students.append(stud)
 
     return students
