@@ -11,7 +11,6 @@ class Student:
         self.course_history = course_history
         # percentage of students with grade <= D, maybe this should be a
         # variable in class.
-        # TODO: Calculate based off of what? number of classes retaken?
         self.dfw_rate = self.calculate_dfw_rate()
         self.gpa = self.calculate_gpa()
 
@@ -63,27 +62,18 @@ class Student:
         Current ideas: Getting # of classes retaken (number of duplicates in
         self.course_history) as a proportion of total classes taken.
         """
-
         if len(self.course_history) == 0:
+            # Not sure if you start with a 0.0 or 4.0, going to assume 0.0 for
+            # now.
             return 0
-        seen = set()
-        retaken = 0
-        d_or_f = 0
+        dfw = 0
 
         for course in self.course_history:
-            # Check if a student has retaken a class, otherwise store that we
-            # have seen the class
-            if course[0].course_name in seen:
-                retaken += 1
-            else:
-                seen.add(course[0].course_name)
+            # Check if the grade was a D/F
+            if course[1] in ["W", "F", "D-", "D", "D+"]:
+                dfw += 1
 
-            # Check if the grade was a D/F. There might be a better API for
-            # this but ¯\_(ツ)_/¯
-            if course[1] == "F" or course[1] == "D-" or course[1] == "D" or course[1] == "D+":
-                d_or_f += 1
-
-        return (retaken + d_or_f) / len(self.course_history)
+        return dfw / len(self.course_history)
 
     def get_start_class(self) -> bool:
         """Decide whether student should start in CIS115 or CIS121"""
@@ -110,7 +100,7 @@ class Student:
         TODO: Add semester
         """
         class_history = {}
-        # Fill the dictionary with { "course": [grade(s) the student got]  }
+        # Fill the dictionary with { course obj: [grade(s) the student got] }
         for (course, grade) in self.course_history:
             if course.course_name.upper().startswith(start.upper()):
                 class_history.setdefault(course,
@@ -118,7 +108,7 @@ class Student:
 
         return class_history
 
-    def highest_course_taken(self, starting_course, courses, recursed=False):
+    def highest_course_taken(self, starting_course: str, courses, recursed=False):
         """
         Get the highest course the student has taken of a given major. We can
         assume a linear past since most students follow the path (?). To
@@ -133,14 +123,23 @@ class Student:
             print("Error.")
             return None
 
+        to_search = self.get_courses(starting_course.course_name.split("-")[0]).keys()
+
+        # TODO: Change to and course is in self.course_history
+        if len(starting_course.see_prereq_for()) == 0 and starting_course in to_search:
+            # this is the last class in the sequence
+            return starting_course
+
+        # print("cis courses: " + str(self.get_courses("CIS").keys()))
+        # print("courses: " + str(courses))
+
         # Check if the course is a prereq for something
         if len(starting_course.see_prereq_for()) > 0:
-            if starting_course.see_prereq_for()[0] in courses:
-                print("recursing on: " + starting_course.course_name)
-                print("prereqs: " + str(starting_course.prereq_for[0]))
+            if starting_course.see_prereq_for()[0] in to_search:
                 return self.highest_course_taken(
                     starting_course.see_prereq_for()[0].course_name, courses, True)
-            elif recursed:
-                return starting_course
-            else:
-                print("bad bad bad")
+
+            return starting_course
+
+        print("honestly no idea how you got here. good job.")
+        return None

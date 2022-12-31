@@ -14,17 +14,23 @@ def main():
     cis224 = Course("CIS-224", 4, "C-")
     courses = [math121, cis115, cis121, cis122, cis223, cis224]
     Course.create_course_sequence(courses)
+    cis121.add_prereq(math121)
     students = utils.get_list_of_students("students2.json", courses)
 
     for student in students:
         print("student: Id={} GPA={} DFW={}".format(
             student.student_id, student.gpa, student.dfw_rate))
+        print("has taken " + str(len(student.course_history)) + " classes.\n")
 
-        print("math classes: {}".format(student.get_courses("MATH")))
-        print("cis classes: {}\n".format(student.get_courses("CIS")))
+        # print("math classes: {}".format(student.get_courses("MATH")))
+        # print("cis classes: {}\n".format(student.get_courses("CIS")))
 
         # get the students highest course
-        print(student.highest_course_taken("CIS-115", courses))
+        print("Highest CIS course taken: " +
+              student.highest_course_taken("CIS-115", courses).course_name)
+        print("Highest MATH course taken: " +
+              student.highest_course_taken("MATH-121", courses).course_name)
+        print("\n------------------------\n")
 
     # cis121students = calculateNumberInCIS121(students, number incoming)
 
