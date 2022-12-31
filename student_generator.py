@@ -10,7 +10,7 @@ def main():
                ("CIS-121", 4), ("CIS-122", 4), ("CIS-223", 4), ("CIS-224", 4)]
 
     # open the file
-    f1 = open("students2.json", "w")
+    f1 = open("students.json", "w")
     # write the header
     f1.write("{\"students\":[")
 
