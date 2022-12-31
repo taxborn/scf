@@ -12,6 +12,7 @@ class Course:
         self.prereqs: list[Course] = []
         self.prereq_for: list[Course] = []
         self.class_size = 0
+        self.failure_rate = None
         # TODO: Priority level B: check if a student tried to register but was
         # waitlisted, was full, etc..
         # self.attempted_to_register = False
@@ -57,6 +58,12 @@ class Course:
 
         return None
 
+    def get_failure_rate(self):
+        return self.failure_rate
+
+    def set_failure_rate(self, num: float):
+        self.failure_rate = num
+
     def update_course_sizes(students, courses):
         for student in students:
             # print("student: Id={} GPA={} DFW={}".format(student.student_id, student.gpa, student.dfw_rate))
@@ -89,10 +96,10 @@ class Course:
 
     def get_number_of_sections(self):
         # TODO: Ceiling this? Floor it?
-        return math.ceil(self.class_size / 28)
+        return math.ceil(self.class_size / 25)
 
     def print_course(self):
-        print("Course \"{}\":\n\tCourse size: {}.\n\tSections needed: {}.".format(
+        print("Course \"{}\":\n- Needed Spaces: {}.\n- Corresponding sections with 25 students: {}.\n".format(
             self.course_name, self.class_size, self.get_number_of_sections()))
 
     def get_prereqs_population(self):
