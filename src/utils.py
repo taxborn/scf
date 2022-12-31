@@ -10,6 +10,7 @@ def get_list_of_students(path: str) -> list[Student]:
     """
     student_data = json.load(open(path))
     students = []
+    courses = []
 
     # Loop over the "students" data in the JSON
     for student in student_data["students"]:
@@ -17,8 +18,8 @@ def get_list_of_students(path: str) -> list[Student]:
 
         for course in student["courses"]:
             crs = Course(course["name"], course["credits"], "C-")
-
-            courses.append((crs, course["grade"]))
+            if crs not in courses:
+                courses.append((crs, course["grade"]))
 
         # Check if the student has a course list. Not needed now, might want
         # later for error checking.
@@ -27,4 +28,4 @@ def get_list_of_students(path: str) -> list[Student]:
         # Append the generated student the the list
         students.append(Student(student["id"], courses))
 
-    return students
+    return students, courses

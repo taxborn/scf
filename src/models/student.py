@@ -102,10 +102,32 @@ class Student:
         TODO: Add semester
         """
         class_history = {}
-        # Fill the dictionary with { "course": [grade(s) the student got)
+        # Fill the dictionary with { "course": [grade(s) the student got]  }
         for (course, grade) in self.course_history:
             if course.course_name.upper().startswith(start.upper()):
-                class_history.setdefault(course.course_name,
+                class_history.setdefault(course,
                                          []).append(grade)
 
         return class_history
+
+    def highest_course_taken(self, starting_course, recursed=False):
+        """
+        Get the highest course the student has taken of a given major. We can
+        assume a linear past since most students follow the path (?). To compute
+        this, we also assume that the course(s) have been populated with their
+        prerequisites and their respective classes they are prerequisites of.
+
+        TODO: Fix wording?
+        """
+        if starting_course not in self.get_courses("CIS"):
+            print("Error.")
+            return None
+
+        # Check if the course is a prereq for something
+        if len(starting_course.see_prereq_for()) > 0:
+            if starting_course.see_prereq_for()[0] in self.get_courses("CIS"):
+                return self.highest_course_taken(starting_course.see_prereq_for()[0], True)
+            elif recursed:
+                return starting_course
+            else:
+                print("bad bad bad")

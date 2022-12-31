@@ -62,3 +62,22 @@ def test_getting_math_classes():
     # One class, taken twice
     assert len(math_classes) == 1
     assert len(math_classes["MATH-122"]) == 2
+
+
+def test_creating_course_sequences():
+    CIS115 = course.Course("CIS-115", 4, "C")
+    CIS121 = course.Course("CIS-121", 4, "C")
+    CIS122 = course.Course("CIS-122", 4, "C")
+    CIS223 = course.Course("CIS-223", 4, "C")
+    CIS224 = course.Course("CIS-224", 4, "C")
+    MATH121 = course.Course("MATH-121", 4, "C")
+    CIS121.add_prereq(MATH121)
+
+    course.Course.create_course_sequence(
+        [CIS115, CIS121, CIS122, CIS223, CIS224])
+
+    stud = student.Student("AAA", [(CIS115, "B"), (CIS121, "C-"),
+                                   (CIS122, "A"), (CIS223, "D")])
+
+    print("Highest course taken: " +
+          stud.highest_course_taken(CIS115).course_name)

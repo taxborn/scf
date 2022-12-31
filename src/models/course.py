@@ -6,8 +6,6 @@ class Course:
         # The minimum grade needed to consider
         self.min_grade = min_grade
         self.is_math = self.is_math_course(is_math)
-        # Course sequencing
-        self.course_sequence = None
         self.prereqs: list[Course] = []
         self.prereq_for: list[Course] = []
         # TODO: Priority level B: check if a student tried to register but was
@@ -35,9 +33,18 @@ class Course:
         # Otherwise, return False
         return False
 
-    def create_course_sequence(self, courses: list):
-        """Encapsulates a course sequence as a list."""
-        self.course_sequence = courses
+    def create_course_sequence(courses: list):
+        """
+        Given a list of courses, it links the each course with it's next
+        and previous ones. It will link the i - 1's course as a prereq to
+        course i, and course i will be made a prereq for course i + 1.
+        """
+        for (i, course) in enumerate(courses):
+            if i != 0:
+                course.add_prereq(courses[i - 1])
+
+            if i != len(courses) - 1:
+                course.add_prereq_for(courses[i + 1])
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""
@@ -47,14 +54,6 @@ class Course:
         """Returns list of Course objects prerequisite classes."""
         return [course for course in self.prereqs]
 
-    def set_prereq_given_course_sequence(self):
-        """Given the sequence, it's prior index is appended to prereq list."""
-        for i in range(len(self.course_sequence)):
-            if self.course_sequence[i].course_name == self.course_name:
-                self.prereqs.append(self.course_sequence[i-1])
-                break
-        return self.prereqs
-
     def add_prereq_for(self, course):
         """Add to the list of courses that the course is a prerequisite for."""
         self.prereq_for.append(course)
@@ -62,11 +61,3 @@ class Course:
     def see_prereq_for(self):
         """Returns a list of Course objects the course is a prerequisite for"""
         return [course for course in self.prereq_for]
-
-    def set_prereq_for_given_course_sequence(self):
-        """Given the sequence, its next index is appended to prereq_for list"""
-        for i in range(len(self.course_sequence)):
-            if self.course_sequence[i].course_name == self.course_name:
-                self.prereq_for.append(self.course_sequence[i+1])
-                break
-        return self.prereq_for
