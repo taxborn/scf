@@ -1,0 +1,124 @@
+{
+  "students": [
+    {
+      "id": "79621cb8e32f486481fe4335452ae366",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B-",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "758628342bee4a4e8cdaa4baab5825dd",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B-",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "0028bc6cf69f430ab204a5adbe1d1873",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B+",
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B+",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "81da23bc1af846c6aea0e3ab069ddd90",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "B-",
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "B-",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "169a4c0c73e0441b9362d7b6a61bedc4",
+      "courses": [
+        {
+          "name": "MATH-121",
+          "grade": "C+",
+          "credits": 4
+        },
+        {
+          "name": "CIS-115",
+          "grade": "C+",
+          "credits": 4
+        },
+        {
+          "name": "CIS-121",
+          "grade": "C+",
+          "credits": 4
+        },
+        {
+          "name": "CIS-122",
+          "grade": "C+",
+          "credits": 4
+        },
+        {
+          "name": "CIS-223",
+          "grade": "C+",
+          "credits": 4
+        }
+      ]
+    }
+  ]
+}

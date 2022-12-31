@@ -1,3 +1,6 @@
+from models.course import Course
+
+
 class Student:
     def __init__(self, student_id, course_history):
         # I doubt we are getting names, so I figure some type of identifier is
@@ -21,6 +24,8 @@ class Student:
         may have taken a course many times, and only counts their higest grade
         achieved in that course.
         """
+        if len(self.course_history) == 0:
+            return 0
         grade_map = {"A+": 4.0, "A": 4.0, "A-": 3.67, "B+": 3.33, "B": 3.0,
                      "B-": 2.67, "C+": 2.33, "C": 2.0, "C-": 1.67, "D+": 1.33,
                      "D": 1.0, "D-": 0.67, "F": 0, "P": 0, "F": 0}
@@ -58,6 +63,9 @@ class Student:
         Current ideas: Getting # of classes retaken (number of duplicates in
         self.course_history) as a proportion of total classes taken.
         """
+
+        if len(self.course_history) == 0:
+            return 0
         seen = set()
         retaken = 0
         d_or_f = 0
@@ -110,23 +118,28 @@ class Student:
 
         return class_history
 
-    def highest_course_taken(self, starting_course, recursed=False):
+    def highest_course_taken(self, starting_course, courses, recursed=False):
         """
         Get the highest course the student has taken of a given major. We can
-        assume a linear past since most students follow the path (?). To compute
-        this, we also assume that the course(s) have been populated with their
-        prerequisites and their respective classes they are prerequisites of.
+        assume a linear past since most students follow the path (?). To
+        compute this, we also assume that the course(s) have been populated
+        with their prerequisites and their respective classes they are
+        prerequisites of.
 
         TODO: Fix wording?
         """
-        if starting_course not in self.get_courses("CIS"):
+        starting_course = Course.get_course_by_name(starting_course, courses)
+        if starting_course is None:
             print("Error.")
             return None
 
         # Check if the course is a prereq for something
         if len(starting_course.see_prereq_for()) > 0:
-            if starting_course.see_prereq_for()[0] in self.get_courses("CIS"):
-                return self.highest_course_taken(starting_course.see_prereq_for()[0], True)
+            if starting_course.see_prereq_for()[0] in courses:
+                print("recursing on: " + starting_course.course_name)
+                print("prereqs: " + str(starting_course.prereq_for[0]))
+                return self.highest_course_taken(
+                    starting_course.see_prereq_for()[0].course_name, courses, True)
             elif recursed:
                 return starting_course
             else:

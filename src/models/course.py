@@ -8,6 +8,7 @@ class Course:
         self.is_math = self.is_math_course(is_math)
         self.prereqs: list[Course] = []
         self.prereq_for: list[Course] = []
+        self.class_size = 0
         # TODO: Priority level B: check if a student tried to register but was
         # waitlisted, was full, etc..
         # self.attempted_to_register = False
@@ -46,6 +47,13 @@ class Course:
             if i != len(courses) - 1:
                 course.add_prereq_for(courses[i + 1])
 
+    def get_course_by_name(crs_name, courses):
+        for course in courses:
+            if course.course_name == crs_name:
+                return course
+
+        return None
+
     def add_prereq(self, course):
         """Adds given course to prereq list."""
         self.prereqs.append(course)
@@ -61,3 +69,10 @@ class Course:
     def see_prereq_for(self):
         """Returns a list of Course objects the course is a prerequisite for"""
         return [course for course in self.prereq_for]
+
+    def get_number_of_sections(self):
+        # TODO: Ceiling this? Floor it?
+        return self.class_size / 28
+
+    def get_prereqs_population(self):
+        return self.prereqs[0].class_size
