@@ -108,7 +108,7 @@ class Student:
 
         return class_history
 
-    def highest_course_taken(self, starting_course: str, courses, recursed=False):
+    def highest_course_taken(self, starting_course_name: str, courses, recursed=False):
         """
         Get the highest course the student has taken of a given major. We can
         assume a linear past since most students follow the path (?). To
@@ -118,28 +118,32 @@ class Student:
 
         TODO: Fix wording?
         """
-        starting_course = Course.get_course_by_name(starting_course, courses)
-        if starting_course is None:
-            print("Error.")
+        course = Course.get_course_by_name(
+            starting_course_name, courses)
+
+        # Check if the course is in the courses
+        if course is None:
             return None
 
-        to_search = self.get_courses(starting_course.course_name.split("-")[0]).keys()
+        # Searches along the path of the same major classes (CIS will only
+        # search along other CIS courses)
+        to_search = self.get_courses(
+            course.course_name.split("-")[0]).keys()
+
+        if course not in to_search:
+            return None
 
         # TODO: Change to and course is in self.course_history
-        if len(starting_course.see_prereq_for()) == 0 and starting_course in to_search:
+        if len(course.see_prereq_for()) == 0:
             # this is the last class in the sequence
-            return starting_course
-
-        # print("cis courses: " + str(self.get_courses("CIS").keys()))
-        # print("courses: " + str(courses))
+            return course
 
         # Check if the course is a prereq for something
-        if len(starting_course.see_prereq_for()) > 0:
-            if starting_course.see_prereq_for()[0] in to_search:
+        if len(course.see_prereq_for()) > 0:
+            if course.see_prereq_for()[0] in to_search:
                 return self.highest_course_taken(
-                    starting_course.see_prereq_for()[0].course_name, courses, True)
+                    course.see_prereq_for()[0].course_name, courses, True)
 
-            return starting_course
+            return course
 
-        print("honestly no idea how you got here. good job.")
         return None

@@ -8,6 +8,7 @@ def main():
     # data. Currently use this template in `students_generator.js`.
 
     # Step 1: Create the courses
+    math098 = Course("MATH-098", 4, "C-")
     math121 = Course("MATH-121", 4, "C-")
     cis115 = Course("CIS-115", 4, "C-")
     cis121 = Course("CIS-121", 4, "C-")
@@ -17,8 +18,8 @@ def main():
 
     # Step 2: Create a course sequence. All this is doing is hooking each
     # Course up to one another
-    courses = [math121, cis115, cis121, cis122, cis223, cis224]
-    Course.create_course_sequence(courses)
+    courses = [math098, math121, cis115, cis121, cis122, cis223, cis224]
+    Course.create_course_sequence(courses[2:len(courses)-1])
     cis121.add_prereq(math121)
 
     # Step 3: Construct a list of students. This is currently loaded in
@@ -32,6 +33,8 @@ def main():
     # Print the current class sizes
     for course in courses:
         course.print_course()
+
+    print(students[0].highest_course_taken("POL-111", courses))
 
     # Step 5: Simulate a semester
 
