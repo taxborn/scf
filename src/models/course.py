@@ -1,3 +1,6 @@
+import math
+
+
 class Course:
     def __init__(self, course_name, credits, min_grade,
                  is_math: bool | None = None):
@@ -56,14 +59,15 @@ class Course:
 
     def update_course_sizes(students, courses):
         for student in students:
-            print("student: Id={} GPA={} DFW={}".format(
-                student.student_id, student.gpa, student.dfw_rate))
-            print("has taken " + str(len(student.course_history)) + " classes.\n")
+            # print("student: Id={} GPA={} DFW={}".format(student.student_id, student.gpa, student.dfw_rate))
+            # print("has taken " + str(len(student.course_history)) + " classes.\n")
             # get the students highest course
             highest_cis = student.highest_course_taken("CIS-115", courses)
-            highest_cis.class_size += 1
+            if highest_cis:
+                highest_cis.class_size += 1
             highest_math = student.highest_course_taken("MATH-121", courses)
-            highest_math.class_size += 1
+            if highest_math:
+                highest_math.class_size += 1
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""
@@ -83,7 +87,11 @@ class Course:
 
     def get_number_of_sections(self):
         # TODO: Ceiling this? Floor it?
-        return self.class_size / 28
+        return math.ceil(self.class_size / 28)
+
+    def print_course(self):
+        print("Course \"{}\":\n\tCourse size: {}.\n\tSections needed: {}.".format(
+            self.course_name, self.class_size, self.get_number_of_sections()))
 
     def get_prereqs_population(self):
         return self.prereqs[0].class_size

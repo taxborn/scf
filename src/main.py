@@ -30,11 +30,10 @@ def main():
     Course.update_course_sizes(students, courses)
 
     # Print the current class sizes
-    print("{} course size: {}".format(cis115.course_name, cis115.class_size))
-    print("{} course size: {}".format(cis121.course_name, cis121.class_size))
-    print("{} course size: {}".format(cis122.course_name, cis122.class_size))
-    print("{} course size: {}".format(cis223.course_name, cis223.class_size))
-    print("{} course size: {}".format(cis224.course_name, cis224.class_size))
+    for course in courses:
+        course.print_course()
+
+    # Step 5: Simulate a semester
 
     # cis121students = calculateNumberInCIS121(students, number incoming)
 
