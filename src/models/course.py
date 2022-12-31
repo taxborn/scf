@@ -54,6 +54,17 @@ class Course:
 
         return None
 
+    def update_course_sizes(students, courses):
+        for student in students:
+            print("student: Id={} GPA={} DFW={}".format(
+                student.student_id, student.gpa, student.dfw_rate))
+            print("has taken " + str(len(student.course_history)) + " classes.\n")
+            # get the students highest course
+            highest_cis = student.highest_course_taken("CIS-115", courses)
+            highest_cis.class_size += 1
+            highest_math = student.highest_course_taken("MATH-121", courses)
+            highest_math.class_size += 1
+
     def add_prereq(self, course):
         """Adds given course to prereq list."""
         self.prereqs.append(course)
