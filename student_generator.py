@@ -29,10 +29,11 @@ def main():
 
         # This determines how far they go in the courses
         courses_student_takes = random.randint(2, len(courses))
-        grade = random.randint(0, len(grades) - 1)
 
-        retake_roll = random.randint(0, 100)
+        retake_roll = random.randint(0, 99)
         for course in range(courses_student_takes):
+            # For each course, generate a grade
+            grade = random.randint(0, len(grades) - 1)
             # Give the course a chance of being retaken.
             if retake_roll <= probability_to_retake * 100:
                 # Regenerate the grade index
@@ -59,9 +60,9 @@ def main():
         # the students id
         f1.write("{\"id\": \"" + uuid.uuid4().hex + "\",\n")
         # if the student exists, let's give them programming experience
-        programming_exp = random.randint(0, 9)
+        programming_exp = random.randint(0, 99)
 
-        if programming_exp < probability_to_have_programming_experience * 10:
+        if programming_exp < probability_to_have_programming_experience * 100:
             # if the incoming student has programming experience, it depends
             # on their math level. if in MATH-115 (precalc) or higher,
             # Place in 121 if they want.
@@ -75,9 +76,10 @@ def main():
 
         # This determines how far they go in the courses
         courses_student_takes = random.randint(2, len(courses) - 1)
-        grade = random.randint(0, len(grades) - 1)
 
         for course in range(courses_student_takes):
+            # For each course, generate a grade
+            grade = random.randint(0, len(grades) - 1)
             f1.write(
                 "{\"name\":\"" + courses[course][0] + "\",\"grade\":\"" +
                 grades[grade] + "\",\"credits\":" + str(courses[course][1]) + "}")
