@@ -45,13 +45,14 @@ def CS():
     # Print the current class sizes
     course_printer(courses)
 
+    course_failure_rates(courses)
 
     # Step 5: Simulate a semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
-
         # Switch 0.75 here with the classes failure rate
-        courses[i].class_size = int(0.75 * courses[i - 1].class_size)
+        print("HERE", courses[i].get_failure_rate(), courses[i].course_name)
+        courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
 
     # Print the current class sizes
     course_printer(courses)
@@ -87,12 +88,13 @@ def MIS():
     course_printer(courses)
 
 
+
     # Step 5: Simulate a semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         courses[i].set_failure_rate(.9)
         # Switch 0.75 here with the classes failure rate
-        courses[i].class_size = int(courses[i].get_failure_rate() * courses[i - 1].class_size)
+        courses[i].course_size = int(courses[i].get_failure_rate() * courses[i - 1].course_size)
 
     # Print the current class sizes
     course_printer(courses)
@@ -134,7 +136,7 @@ def CIT():
         # Update the population here through indexing
         courses[i].set_failure_rate(.9)
         # Switch 0.75 here with the classes failure rate
-        courses[i].class_size = int(courses[i].get_failure_rate() * courses[i - 1].class_size)
+        courses[i].course_size = int((1- courses[i].get_failure_rate()) * courses[i - 1].course_size)
 
     # Print the current class sizes
     course_printer(courses)
@@ -168,15 +170,23 @@ def HI():
     # Print the current class sizes
     course_printer(courses)
 
+    courses = course_failure_rates(courses)
+
     # Step 5: Simulate a semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
-        courses[i].set_failure_rate(.9)
         # Switch 0.75 here with the classes failure rate
-        courses[i].class_size = int(courses[i].get_failure_rate() * courses[i - 1].class_size)
+        print("HERE", courses[i], courses[i].get_failure_rate())
+        courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
 
     # Print the current class sizes
     course_printer(courses)
+
+def course_failure_rates(courses: list):
+    for course in courses:
+        print("Set failure rate for {}".format(course.course_name))
+        course.set_failure_rate(float(input("Input ratio: ")))
+    return courses
 
 def course_printer(courses: list):
     print("==========================")

@@ -11,7 +11,7 @@ class Course:
         self.is_math = self.is_math_course(is_math)
         self.prereqs: list[Course] = []
         self.prereq_for: list[Course] = []
-        self.class_size = 0
+        self.course_size = 0
         self.failure_rate = None
         # TODO: Priority level B: check if a student tried to register but was
         # waitlisted, was full, etc..
@@ -71,11 +71,11 @@ class Course:
             # get the students highest course
             highest_cis = student.highest_course_taken("CIS-115", courses)
             if highest_cis:
-                highest_cis.class_size += 1
+                highest_cis.course_size += 1
             """
             highest_math = student.highest_course_taken("MATH-121", courses)
             if highest_math:
-                highest_math.class_size += 1
+                highest_math.course_size += 1
             """
 
     def add_prereq(self, course):
@@ -96,11 +96,11 @@ class Course:
 
     def get_number_of_sections(self):
         # TODO: Ceiling this? Floor it?
-        return math.ceil(self.class_size / 25)
+        return math.ceil(self.course_size / 25)
 
     def print_course(self):
         print("Course \"{}\":\n- Needed Spaces: {}.\n- Corresponding sections with 25 students: {}.\n".format(
-            self.course_name, self.class_size, self.get_number_of_sections()))
+            self.course_name, self.course_size, self.get_number_of_sections()))
 
     def get_prereqs_population(self):
-        return self.prereqs[0].class_size
+        return self.prereqs[0].course_size
