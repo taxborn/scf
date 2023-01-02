@@ -51,6 +51,8 @@ class Course:
             if i != len(courses) - 1:
                 course.add_prereq_for(courses[i + 1])
 
+
+
     def get_course_by_name(crs_name, courses):
         for course in courses:
             if course.course_name == crs_name:
@@ -72,11 +74,10 @@ class Course:
             highest_cis = student.highest_course_taken("CIS-115", courses)
             if highest_cis:
                 highest_cis.course_size += 1
-            """
-            highest_math = student.highest_course_taken("MATH-121", courses)
+            highest_math = student.highest_course_taken("MATH-115", courses)
             if highest_math:
                 highest_math.course_size += 1
-            """
+
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""
