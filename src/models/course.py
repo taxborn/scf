@@ -11,7 +11,8 @@ class Course:
         self.is_math = self.is_math_course(is_math)
         self.prereqs: list[Course] = []
         self.prereq_for: list[Course] = []
-        self.class_size = 0
+        self.course_size = 0
+        self.failure_rate = None
         # TODO: Priority level B: check if a student tried to register but was
         # waitlisted, was full, etc..
         # self.attempted_to_register = False
@@ -50,12 +51,20 @@ class Course:
             if i != len(courses) - 1:
                 course.add_prereq_for(courses[i + 1])
 
+
+
     def get_course_by_name(crs_name, courses):
         for course in courses:
             if course.course_name == crs_name:
                 return course
 
         return None
+
+    def get_failure_rate(self):
+        return self.failure_rate
+
+    def set_failure_rate(self, num: float):
+        self.failure_rate = num
 
     def update_course_sizes(students, courses):
         for student in students:
@@ -64,12 +73,11 @@ class Course:
             # get the students highest course
             highest_cis = student.highest_course_taken("CIS-115", courses)
             if highest_cis:
-                highest_cis.class_size += 1
-            """
-            highest_math = student.highest_course_taken("MATH-121", courses)
+                highest_cis.course_size += 1
+            highest_math = student.highest_course_taken("MATH-115", courses)
             if highest_math:
-                highest_math.class_size += 1
-            """
+                highest_math.course_size += 1
+
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""
@@ -89,11 +97,11 @@ class Course:
 
     def get_number_of_sections(self):
         # TODO: Ceiling this? Floor it?
-        return math.ceil(self.class_size / 28)
+        return math.ceil(self.course_size / 25)
 
     def print_course(self):
-        print("Course \"{}\":\n\tCourse size: {}.\n\tSections needed: {}.".format(
-            self.course_name, self.class_size, self.get_number_of_sections()))
+        print("Course \"{}\":\n- Needed Spaces: {}.\n- Corresponding sections with 25 students: {}.\n".format(
+            self.course_name, self.course_size, self.get_number_of_sections()))
 
     def get_prereqs_population(self):
-        return self.prereqs[0].class_size
+        return self.prereqs[0].course_size
