@@ -74,7 +74,7 @@ class Course:
             highest_cis = student.highest_course_taken("CIS-115", courses)
             if highest_cis:
                 highest_cis.course_size += 1
-            highest_math = student.highest_course_taken("MATH-115", courses)
+            highest_math = student.highest_course_taken("MATH-098", courses)
             if highest_math:
                 highest_math.course_size += 1
 
