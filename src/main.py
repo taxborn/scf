@@ -47,7 +47,7 @@ def CS():
 
     course_failure_rates(courses)
 
-    # Step 5: Simulate a semester
+    # Step 5: Simulate a core class semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         # Switch 0.75 here with the classes failure rate
@@ -89,10 +89,7 @@ def MIS():
     course_failure_rates(courses)
 
     # Step 5: Simulate a semester
-    for i in range(len(courses) - 1, 0, -1):
-        # Update the population here through indexing
-        # Switch 0.75 here with the classes failure rate
-        courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
+    courses = course_updater()
 
     # Print the current class sizes
     course_printer(courses)
@@ -131,10 +128,8 @@ def CIT():
     course_failure_rates(courses)
 
     # Step 5: Simulate a semester
-    for i in range(len(courses) - 1, 0, -1):
-        # Update the population here through indexing
-        # Switch 0.75 here with the classes failure rate
-        courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
+    courses = course_updater()
+
     course_printer(courses)
 
 def HI():
@@ -169,13 +164,17 @@ def HI():
     course_failure_rates(courses)
 
     # Step 5: Simulate a semester
+    courses = course_updater()
+    # Print the current class sizes
+    course_printer(courses)
+
+def course_updater(courses):
+    # Step 5: Simulate a core class semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         # Switch 0.75 here with the classes failure rate
         courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
-    # Print the current class sizes
-    course_printer(courses)
-
+    return courses
 def course_failure_rates(courses: list):
     for course in courses:
         print("Set failure rate for {}".format(course.course_name))
