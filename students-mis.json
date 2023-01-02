@@ -1,0 +1,3174 @@
+{"students":[
+{"id": "e04fc0ee83a943a3adb3513d5152c4df",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4},
+{"name":"CIS-223","grade":"A-","credits":4}]
+},
+{"id": "321eea42a2654921a553d6714beaf840",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"A","credits":4}]
+},
+{"id": "9f7381ae225b4d68a744f0e5fd1d9c6c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "1d4d49e686b44fa08e4d7cfadd4aa892",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "b44adfe61c7548ee84d3a348b88dacee",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-098","grade":"D+","credits":4},{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "4601f183a8ec46edb2eb971b01395ecb",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "1ffeb06cecb04551b21cc225b8fbdee3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-098","grade":"D+","credits":4},{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},{"name":"CIS-121","grade":"D+","credits":4}]
+},
+{"id": "43f516792564422585e9d04d8c58bc2b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "830eebc45fe6453cab8a29933cf7ef1a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "2765513b169c4047a408a082cf39bb6b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "e44bfadfd03343f5ba155c455cc24015",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"B","credits":4}]
+},
+{"id": "61cb347ab7a84629bb8b59428d72d90a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "070175dc234841599bf3c33c28af7297",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "f9c952b2d9b34f4b9be022a56e9fdc08",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "24672b8253fc4748b88ab0baf00c439a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "6285f94a258848bb8f98b20a1c59c255",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "33d6a1a80e7945e4a7fc0afbf6cee139",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "f1e4bb23d9414981a60fb2d923b58838",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "02c078a1e5074fde8d6947dbcd9d9468",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "e89cae0fb65444f9910c6c41fcf79d88",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "36cc85d0af7e4224bb5bca615ac75f78",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "16e9ec5aefe248a3a74bc99cab43bf55",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-098","grade":"A-","credits":4},{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},{"name":"CIS-121","grade":"D","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"MATH-122","grade":"A","credits":4},{"name":"CIS-223","grade":"B","credits":4}]
+},
+{"id": "4defa350543d4a60a7163704856a88ac",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "60e872f7a1764a6a84415e1ee44556d0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4},
+{"name":"CIS-223","grade":"A-","credits":4}]
+},
+{"id": "e1faa33e7af448e4bb2f92a65554f3c4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "d6724576362c4d7dac7fdf8e40dcde20",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "623174219b8448ca88ad983a3672d0e3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "a34b716c9be946af926d0335cff49364",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "c7452a72abaa4cffaa213dd26efbf35c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "b027e442fd3340b9b3736e68a49b4988",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"B","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "9eb259245ad947d197bb8c115288ed5b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "e73288321ec247b48ddfeae6ad489b45",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "60d4059ab0944380bc967ccee6d1eb44",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "77897ed5a3a544a3a99ff126cbad1542",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"D-","credits":4}]
+},
+{"id": "6ca1788e26724b77a50ac520635f895a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},{"name":"MATH-121","grade":"F","credits":4},
+{"name":"MATH-098","grade":"F","credits":4},{"name":"CIS-115","grade":"F","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "caa5d965f1cc4604b2216f10894a9bd4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "0c88e13eae7e4c519b8c1bd774686108",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "3beabc213aac44d589f1809a86f425a1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "10f6318d2bec4326892562e25cb2821c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "ff5d86fad73642f09913e273b129efe8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "6ac75df8a7bb4ae492b72a7168fdd904",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "d4db7352d57b4e67a39a0e1a3444b760",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4}]
+},
+{"id": "401c339ec5894e1b9edd8a543d6b841d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "89e08d32b0ad4c688283d03a2397dc04",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B","credits":4},
+{"name":"CIS-223","grade":"C","credits":4}]
+},
+{"id": "ee5cea2fbf844f67933cebda12205109",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "ec96017353004f228dc1697f8af17a51",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "60eb0316300d4e90b335c08b6ba0825f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "ae89258d2eb3403382d77bbb6a3dee3e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "e3645a8806c747b9acd96489629e8310",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "d11d6f3ec7ec4b62a148b370281ec6c0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "d7e7287c32734631bf2ee7a8e9e52fa0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "ee9575242e2d4df39d992629b2f976de",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"B","credits":4},
+{"name":"CIS-223","grade":"C","credits":4}]
+},
+{"id": "d7b4ca99ccb4433a8b840c41d611356d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "50c144a8f51e4e99a3db8991caa4b13f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "256f21f46e124bce9c2be7c4fba51749",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "0f442eca4d3747098c0acbcd8e1e22de",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "a0ae2fb289f946648d1128f296688ccb",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "04b9f81c742e41339059b57a83f1454e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4}]
+},
+{"id": "54b303e3a1fe4b278d6a96c7d0f2691e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "9a6fdd2b54f143518153282f66f2a02a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"A","credits":4}]
+},
+{"id": "ed3d1d9039fb458491adccde4bd5a962",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "15e07cd45fbe4828b49bf2732ac55feb",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "41781e7e31be4d31958eda7dbdc8e6bc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "86fec16aab3e4cde8d8f663038d9fb75",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4},
+{"name":"CIS-223","grade":"B","credits":4}]
+},
+{"id": "38a6ef05771c42daa8722e34c9bc1e7f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "fa0d0f8cf0224d21befea7ae402cb1dd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "9e8e2c804da048d3a8af286fdc46fc51",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "f195aaedbba24dd8b378dbe57b4ad1c2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-098","grade":"B","credits":4},{"name":"CIS-115","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "4d48bb06325649b5b5fe7a1fe4fe49cc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "1fd18795ed014c6e9cfcc8fbab8f5d06",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4},
+{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "ecf8858fae224a86935463d34bdefd85",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4}]
+},
+{"id": "16c1049994c84e78bcc5fde93a8caf33",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4}]
+},
+{"id": "2377d774226446bea91af2145b412ead",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4}]
+},
+{"id": "a9792d41f2ff4934b4d128771ba694cf",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "470460c916234064b192b2527634de06",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "c4186cf73c754a6ca7264b86a9a6ac3e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "bbd8e05f672845f98dca09eb6782eca2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "b010c62b6bc3490f8a0633d784312439",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"A","credits":4}]
+},
+{"id": "ab3f48bfe6c847b399cadd9f9e00dc8f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"D","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "ba2606a2b26e4dccb5ac3d1f249e0642",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-098","grade":"C+","credits":4},{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},{"name":"CIS-121","grade":"C","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "3f3007f25fa14696a029cd693bc60b5a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4}]
+},
+{"id": "9142a5d0e731422792f416f7d4a19c0b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "0e5e41b731ec41e483912632d49a2e60",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "a4428663f3e542548fd762bc0ab598c3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4}]
+},
+{"id": "0331bbf29c1a40aa8a4f3cb275e7236f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "9c76cb9d1e5341898de09229f3333a08",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "53de41b0b93c4e10a19f26dc1bf3ef08",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "9958db48b7d14f67a568d6a1b12b6ebf",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "64d16e3939c147838aa5a060f8e9eb4d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "24f86c90d1314f9ba57d4b5cf7aa1c81",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-098","grade":"A-","credits":4},{"name":"CIS-115","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},{"name":"CIS-121","grade":"A","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},{"name":"CIS-122","grade":"A-","credits":4}]
+},
+{"id": "7a9ca298d14b4099882fe21bb3534efe",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"A","credits":4}]
+},
+{"id": "9c0668d21c8a422780a24fed353a0e9f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "8e92c332ad6c4868821a6e2efc47a2ab",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "d904f0a18f5045ef8582dc0871f1dbf3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "27bcf316b81348309f7b88367d8132c3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"A-","credits":4}]
+},
+{"id": "4205ef6486bb4f65a9c6934a4e037465",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "3820a8796f9a468bb35eb610eef051d7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "31f303a298854d3db60dd1025f43d93b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "00cddfe563dc4f40ad9f455b13c40b1f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"D-","credits":4}]
+},
+{"id": "7f365b7e727643efb5522e094c6200f5",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},{"name":"MATH-121","grade":"F","credits":4},
+{"name":"MATH-098","grade":"B","credits":4},{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "3305bdd27adc45a9870bf111b4f9acae",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},{"name":"MATH-121","grade":"B","credits":4},
+{"name":"MATH-098","grade":"C","credits":4},{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "cb3605c44b3a426fbf33b089ea6de74d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "2f481814d5fa48c3a1b91fbaaa6e10b3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "4ba914f6f6524b97ba0e7d4b81db7333",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "7b0017690edd49668a54fc4cbe74cc89",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "707f85464f304693a029357aabe3dd2e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"C","credits":4}]
+},
+{"id": "3816c16b6e81406a845df8f63411b39f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"MATH-098","grade":"D","credits":4},{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "1087e91bb0a44ecb90f5fc32c3bc0695",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"D","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "3ca1062d96ba472f91dadac2edf8c1bc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4}]
+},
+{"id": "648939da489e43f4bc8227893d91241c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "f1a576fa81364cf2a5fd94642b9d596d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "5d101aee52164353bd305fb2067900ed",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "b08ac7c66a9244f988d01bc14b4133c3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "5782ea898a35468dbfd5afbf09783882",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"A","credits":4}]
+},
+{"id": "2a42a83d153b46ee95a7cf2c6dba8e6d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "8e41bc7efd6042a1af916a66e8dafc48",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "3f3161365b7445588a9dc00a04d8dbd9",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4}]
+},
+{"id": "98e7130a200c44248baa78b363134ba2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "20551374627048458dabbc0e39165c98",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4}]
+},
+{"id": "630b6a4088164ca189fd69d7fcc1aebe",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "0ec14a15fb8c4cef91af6c44f962f95d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"B","credits":4}]
+},
+{"id": "69ad6946256243d993231ac29a6713a8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "290967e0000347c5bf7fbafa8e2e6a28",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "45e5807f3ae44bdab54b3b3e3ff25503",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "ec7ab9b58b3f4d92bbc9e940ac747be2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-098","grade":"B-","credits":4},{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "94b5304904df4f7094095bcd91de9235",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"D","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "c11a15118bff47f0ad93200bddca27c1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "bd07dc22aca7492690a76fb4c70bbc40",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "1cb7bd2796c24ec8833535dd11ddfef0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "42d9125e42304af1a887aba410642e26",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4}]
+},
+{"id": "7237a96bbff748dfbb0f83b51fb2e465",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "95f2759b8eb24c53a429161e9732fbfd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"A","credits":4}]
+},
+{"id": "b8aefabc4765402bb44328ad697702f7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "b3ee90f534c748f5bc355fd93bd8c95b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "a2e8a5a09409405494fd728135ae8f60",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "3b5f0623f9c2463b88d86b23a742fc89",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "34aa020bf11548d6ab7116417b8ac70a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "7b5981856c004a8496fd4b10d1f61aaa",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"B","credits":4}]
+},
+{"id": "4d7195d69ae64415aa811283f053faac",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},{"name":"MATH-121","grade":"C","credits":4},
+{"name":"MATH-098","grade":"A-","credits":4},{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"MATH-122","grade":"D","credits":4},{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "289aaafd4b8742af87c56e2f2f5f90c1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"A","credits":4}]
+},
+{"id": "e8b601994b3b4172b030de624201c39b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "8d1b38a2dbbc4a76ac647584774fd9e4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "0f853e6c5f7c4176b0294d1dcb1f5e1f",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"C","credits":4}]
+},
+{"id": "ff9ac3a7b5da4d1fa5c8cdce8e57be10",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "fb535c952f1e45a6b61250c142052a56",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "fd92f39db72b4ba7a9e3b75df8c885f1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "4a6ee71e0ce245ffb35fc283653b7789",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4}]
+},
+{"id": "a6ad5c556b69486d95ebcb328c9ecc5b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "8b13fb54180f481c878c3f50d504fb5a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "7c3da2cd69e34905aea4bfa0c702a113",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "cf25116ccab0441f88b7ef93b425cd41",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-098","grade":"C","credits":4},{"name":"CIS-115","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "5c0aedf0095f49cba88a7b558650548c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "101c1d2d26e5433d95efec71c0bd4c3d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"A-","credits":4}]
+},
+{"id": "2557d1a7e97243d69509933cf2d82b56",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "0df4becdb91345f693385723ac955838",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "e9ffa054f6834e1bbcb2b9f64d7c2266",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "a5d423dac6884d249e819326ff27e1c2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4}]
+},
+{"id": "45d1ae79745d415e87a83f673acad21a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "469da23eff6a4262abb5b8df09e8061d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "8f2745e0170344ce88b6f07f71cfd572",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "6622013678344b0bb8f52905bbc8146a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "b4fe9f0d17e5490ca33e852699677358",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "1fba9a29bfa54651abb48f34e8dc7366",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4},
+{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "97805a7954af42b0832b6f3a7e19407e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "4c0c2a683ecf4484a8ffdfc4075c0240",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"C","credits":4}]
+},
+{"id": "6384971151f44356a555be9b7c502406",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"D","credits":4},
+{"name":"CIS-223","grade":"A-","credits":4}]
+},
+{"id": "87cf7da4077446ecae3e2fb08d911b62",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"A-","credits":4}]
+},
+{"id": "f2e011becfc74340863f3abcf1b62196",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "6e2a533be5854a7fa476e8b3d90aafcd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-098","grade":"A","credits":4},{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "bd5ea88780594d3dbddfb24e342e132e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"D-","credits":4}]
+},
+{"id": "e830ab808a314d48a9cf20f82c55f0c0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "135fef43b2f548c0b96a05361829fd83",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"A","credits":4}]
+},
+{"id": "234325b1ee0640959a730eb7dffba629",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "107c2dd4440c4a4fbef1e3894a4964b5",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "78d3d698a8824f9caf5752204236143e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "c89a38ccf9bf43d197ad8caebd98f42b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "2200a52e7ae54f61b6e1e3299962d6f2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "dd570ebabf77434a9c408e7bde17323c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "6460cea5f105447dab4ec3904f8680dc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"B","credits":4},
+{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "421aaef05f104e789ad41279b3709897",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "f3cd4a568b95410d868fae460bc3b521",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "9a38ee17d13a4081b74954c5cac80d62",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "208998b901064f34b1cd1285f64b9942",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "c576bb6b81af451f89e071656c906e6a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"A-","credits":4}]
+},
+{"id": "69f861a743a94ed583d9ab5f9e4ae65a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4}]
+},
+{"id": "aca3668a261e49e68f2b41d219b95c6a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "506582230f6349559c972d3d14073c40",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "c33f0217c2f1481fab55c46b8c1e4e12",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "c3db654d268d4bacb8df6fe02f5bbddd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "b308ef10a47547eb9cce239b30b5cd63",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "41d4163426dd4050995d7cf96708a0e1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "74ff610c4f274838a979c8e174740c08",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "8c9379135a934f9c9925f8b3ff520584",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"D+","credits":4}]
+},
+{"id": "0e4da376080a4044a9aff5b5f809db94",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "c44d22cbc185488089cea731bf4c1642",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "5a8dc67c8fcd4a0db39ee5220f65204a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"C-","credits":4}]
+},
+{"id": "2e8cc17f70ab4470b268fbcd24d890bd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "f37201f0d2504ce384911eb2d7e6c671",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-098","grade":"B","credits":4},{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "3131d0bd8d574526b1c3b0fb5422efb7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C","credits":4}]
+},
+{"id": "d609c108697f40b684cfc2153c0394fd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "a55a7994daae408c97aea7413f934b95",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "9af6617f51d54ea88eebcc891513babf",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "d77af31450704f5f9fd2ac9bea404389",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4}]
+},
+{"id": "123e9d918eb3438fbedae3a624b086fe",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "8aa6dcc4ff65477f8ae2c2ac03ddd246",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "d0521febfd37468ea1e39888698a7eda",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "4e3dcacf3c46474e9c9a5c2a5efb594e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "eb311ce403a8483a930846f6db64022a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "ff82cbf9b3604fceadd027495206af95",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "1a598d2565054f2fa72f447c20a3ac6c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "3694ca48a2fd412b82f0c78414f9fae6",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4}]
+},
+{"id": "ccefdac82ce4440f9ae5e8503effb5e0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-098","grade":"D-","credits":4},{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},{"name":"CIS-122","grade":"B-","credits":4}]
+},
+{"id": "0ed52b7938f04899a5efdeb42b6b44e6",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "0797c5d2bb694891b9160441292a5a63",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "427e253507434aa0ab92e718a792ad21",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4}]
+},
+{"id": "aacd7f321d8545cf8efa60233d6b5dae",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "b39133303ee54d7e9d5191048dc227ce",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "8413795399ba4d4190825534b510d814",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "9c797b98f69143c3a9b7933db64406fa",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "5889ac3219244150a98c00deb6e22b91",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "7f91f3e857684428a77b6a274f3291fa",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "960528b3450942b89434a7a9921a10d1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "8c8069e3efbd4ae6ae51d8800cb87348",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "08f38afe3d2247d881b34836e54848b3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "b1572ef17cb44094bcd7221341475c16",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"B","credits":4}]
+},
+{"id": "cc4925b49d6a43b7b4d728493177f382",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"A","credits":4}]
+},
+{"id": "bb0f68f4422d4cd4a7c50a8d1fd67bb8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "4e5b9755c5b24ab5870c754f37e898a4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "ecf8ec0e6a17441e83557823ee10fafd",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "61c90c1fb92c4beb9b1b45a846423380",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "db568a8da3c44bcfb815b9fc8b1f9c2e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"C+","credits":4}]
+},
+{"id": "5a11f617869c467ebde75e06aa73a66e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "84d0025e26224c099e68a6633606bf43",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "156a9a1640b647fea9362f34135c3770",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4}]
+},
+{"id": "bd374e4bde4645c98de68baee60756b3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "e99821ea347d40548520936302836ab3",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C","credits":4}]
+},
+{"id": "408bec95c4ed4246ae344f61144277d8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "0ce0b32cc36a4c1b9f8ace28548a0ec6",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "3da401e5d14d4ae08fbcbe5e4c63e044",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "2f63f4ff6a8b4dfb89791533af608e54",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"B-","credits":4}]
+},
+{"id": "14c57aa362d04c41976074224203ec88",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"A-","credits":4}]
+},
+{"id": "8861a4353ce944bc9b20593ac3730ae8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"B","credits":4}]
+},
+{"id": "dfa5b796fe0b40b5ac8c41b586a5e24b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "8773ae331a5b41629f8966c9b2e52204",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"D","credits":4},
+{"name":"CIS-223","grade":"B+","credits":4}]
+},
+{"id": "acf38ab899684807a804b87acb8147fc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "d101c604934e4b50957d69a953cd72c9",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"A","credits":4},
+{"name":"CIS-223","grade":"F","credits":4}]
+},
+{"id": "1d7d4c3ac7d345fa8b68a3daff407cd7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "ebc6045f317d4c81ac2d5c4ebf59e248",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"B","credits":4},
+{"name":"CIS-223","grade":"D-","credits":4}]
+},
+{"id": "0b13ada7b2d44ae4a5aa916e3696499c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "5ad0512cb73c4767bbf552498ef373a1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "4dd8c2bfc964497e9d9dff0a79fd060a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4}]
+},
+{"id": "ec402976878d40d88c45af1e951692e4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "24023df4eb444ed49c719a653577b7ac",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"B","credits":4}]
+},
+{"id": "a5ebbc6c66b7455cb4f565ab1c29de38",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "774f60712f314d6dbc49312ed08c0d4d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "eb6fff0b4dfa413c9d7d2febba3a6ccb",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4}]
+},
+{"id": "13b69c1662524a088f5bf833c026a0a8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "1a380e741bed4c90abebecc8d226683d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "95fec04904284b5bae5c6ab6d7666853",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"A","credits":4}]
+},
+{"id": "ea733bc27df544269b20b3a435bd4379",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "b4488f8d2c0f4698ac77f0b1e4d90568",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"D","credits":4},
+{"name":"CIS-122","grade":"C-","credits":4}]
+},
+{"id": "831ad460e78b48a18ffbb852353859c6",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "ec06e17ebe5c4461a4db4488e6ca0504",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"B","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "6ce132ae185140adb143b01383a5b30c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"CIS-121","grade":"C+","credits":4}]
+},
+{"id": "c758dfd026b84945b87d568fbfae3f5b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"B-","credits":4}]
+},
+{"id": "f3e023ec9ddf46afbb73863b2dd64cec",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"C","credits":4}]
+},
+{"id": "ea49a7d02be541869669ef5fc9164ed8",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "a1a5fa9a1d0c49e68aca14de8d28b361",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "a8e17dd889364c42b9a81290f3198ea4",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "05c677d08a564169a3d9842771379238",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"F","credits":4}]
+},
+{"id": "cfd605905972413d835b7b23f67b8637",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"C","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "8d03084953a2495eb6d9b9a18e0e2d0e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "ad0af8e28f8643eb96bd8ae59ff98a45",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "048414139a8e46a8b97a7fb25f233e47",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4}]
+},
+{"id": "2a9c2472149e41ac88bf4f23bd744f10",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"B+","credits":4}]
+},
+{"id": "aeaf1cfd3f654b73a53d78b44c7e921d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "65bcb3e308064a99b9b393e14f33288c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"F","credits":4}]
+},
+{"id": "782cef7fd094474fb1177e367631ee67",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "6c9941e5a4b2468789716eb15d5d6713",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"F","credits":4},
+{"name":"CIS-122","grade":"C+","credits":4}]
+},
+{"id": "851bb04fea6a4fdcb1438d7d0464160a",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"A","credits":4},
+{"name":"CIS-115","grade":"F","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "83af0b9e2756415fa5ebd558f3bcfba5",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"F","credits":4}]
+},
+{"id": "d16d112a4ab64163b3bb1faf641ed88e",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "6add583ca3fa4a2f8f3942aebfa12ad2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4}]
+},
+{"id": "6d796f8a16d2445eba9976e4c8519b8c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "0a979ca1a8f54abbb85db2d1227a964b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"D","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "0cffa427afde448ba73d59f6709b3a2b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"D-","credits":4}]
+},
+{"id": "d02950e7ea1c411abd8e797f4a6b03a6",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "99df244700a84079983a910085cad486",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A","credits":4},
+{"name":"CIS-122","grade":"B","credits":4}]
+},
+{"id": "c6083c3eb4f94628afad09a87996b34c",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-098","grade":"F","credits":4},{"name":"CIS-115","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},{"name":"CIS-121","grade":"B-","credits":4}]
+},
+{"id": "809d5bebb8924eaf80f1429b6c4c72d0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-098","grade":"D-","credits":4},{"name":"CIS-115","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},{"name":"CIS-121","grade":"B","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},{"name":"CIS-122","grade":"B","credits":4},
+{"name":"MATH-122","grade":"C+","credits":4},{"name":"CIS-223","grade":"D-","credits":4}]
+},
+{"id": "40438f7bbfeb4ec5a0ef43fd4f1ffdd0",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"D-","credits":4},
+{"name":"CIS-121","grade":"C","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "6bd47ecfb365429e9dcd6d4043ebcc77",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"D","credits":4}]
+},
+{"id": "d2fe6a82e833461c8fd6961eea770cc5",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"A","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "244a96a2581d4c30bad8bb74e6657ef7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4}]
+},
+{"id": "18dd2657d97d41948bd95a9b3e329b86",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4},
+{"name":"CIS-121","grade":"C-","credits":4}]
+},
+{"id": "c67b7ee830a742ae816aadeaebdd13fe",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4},
+{"name":"CIS-121","grade":"D+","credits":4},
+{"name":"CIS-122","grade":"B+","credits":4}]
+},
+{"id": "662e09465fa44d82b65d2db8d8c55408",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"CIS-115","grade":"B","credits":4},
+{"name":"CIS-121","grade":"D-","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"A","credits":4}]
+},
+{"id": "112e003328034a879fe0132de4c396a5",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4},
+{"name":"CIS-121","grade":"B-","credits":4},
+{"name":"CIS-122","grade":"C","credits":4},
+{"name":"CIS-223","grade":"D+","credits":4}]
+},
+{"id": "9e59dd5c6cb1440db12bc92a723eb972",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"D","credits":4},
+{"name":"CIS-121","grade":"A-","credits":4},
+{"name":"CIS-122","grade":"F","credits":4},
+{"name":"CIS-223","grade":"D","credits":4}]
+},
+{"id": "c84b12693254487d8fc31c429c7fbac7",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "2ec31e1be4174e5e81b6fcd0225e1c3d",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4}]
+},
+{"id": "ec89c55fa71c4fa2886a92ed85d2275b",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "8fad5f106930497ab120f4f5375844df",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4}]
+},
+{"id": "bbde286c751f43e48129c3727fe03552",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "c8e1a0a4759348a0a9163c457b5f18e2",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4}]
+},
+{"id": "b5b6d9d8e710408599eaaa6c703f2a8d",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4}]
+},
+{"id": "a6a4b28afba04a99a75edecf244090ff",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"F","credits":4}]
+},
+{"id": "38b0cf01101748979de2494b97dbe922",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "b0c3c04d366b475c88037fea4ed7d09f",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"C","credits":4}]
+},
+{"id": "c9b28f115dd94534880582ddb33efb42",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "0272dd660ee74dcdb2ca122cb4f3fdd2",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "6bcf0bbdf22449918ad1ecae5ac8c22f",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4}]
+},
+{"id": "2d41a3b4bb144a19992c14c7913e9426",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4}]
+},
+{"id": "52c3bf4c1bda4a469de3c4ee9bbd8538",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4}]
+},
+{"id": "a3d76050113f4f66a4539fa8c7b5eb6f",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"A","credits":4}]
+},
+{"id": "585893e4a0844ef583c520ba454269f7",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4}]
+},
+{"id": "0369939082d1405fa5491c34569acced",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "7951dd17c6cf450196dcbbb52f520eee",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4}]
+},
+{"id": "f87a7bbe6b804287a69acb74ac78fbd5",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4}]
+},
+{"id": "2dd3ec9fdac4404591ddbb4d82cb20f6",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"C","credits":4}]
+},
+{"id": "6d040203f0bb4d8c929cad3a2c591e04",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4}]
+},
+{"id": "8e6a476fdd9740f8a4a3f4abe5008be6",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4}]
+},
+{"id": "97654d4de5454eff9caca1fc6453c848",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4}]
+},
+{"id": "23cb7e3e00fa4b58b743d1ce874b7a67",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4}]
+},
+{"id": "2a41c1e7b5b34fe98e510fff455f7188",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C","credits":4}]
+},
+{"id": "730ef59549b1419fa4ee7bca0b405dcc",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4}]
+},
+{"id": "149626cbab74449fb9cf4adb2eb7d834",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4}]
+},
+{"id": "e7e3773127d64e97928b47b1baedd738",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4}]
+},
+{"id": "0423730e8cef44eeb261942cb44b73f6",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4}]
+},
+{"id": "b7c9124437dc446893e7f17116eb838a",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4}]
+},
+{"id": "90c62355199144398509ab2791f484d6",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"F","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4}]
+},
+{"id": "a02fabbcfaf443c099a143908e481afe",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"D","credits":4}]
+},
+{"id": "ea5b5d4473b7496e9d89ce81320e4da1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "47a3d6ec5dda44558e639dcaf9c10ae8",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+},
+{"id": "f45301aeef5e4b76b38be3f2bea3ab64",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C","credits":4}]
+},
+{"id": "06a4307dff7d499eb24123e1d4cd4531",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"CIS-115","grade":"B-","credits":4}]
+},
+{"id": "4eb0fab871fb480686e315b931e8ac6f",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4}]
+},
+{"id": "08a54756e81a4c9a99fa274a8217d381",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4}]
+},
+{"id": "e257c0d27cba4faf800076ffada81a04",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"A","credits":4},
+{"name":"MATH-121","grade":"D-","credits":4}]
+},
+{"id": "1dc432688fad4c428dedf453cf60c8ef",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "e64794c98df446f2ac52a08804e2bafc",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4},
+{"name":"CIS-115","grade":"C-","credits":4}]
+},
+{"id": "3ea5fc7921a647068d5d312eab7b8133",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "a11cce696b154aa7b0ccde01cc8abcfc",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4}]
+},
+{"id": "6c84ed174fa84981877221ed60da3b10",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"A-","credits":4}]
+},
+{"id": "8daf3bf63ecb42729db920f6f7b20d05",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4}]
+},
+{"id": "3b10e4535b63443587b3c2ecac727c4d",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A","credits":4}]
+},
+{"id": "590e9789d3d24502ba249657b7c1a847",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B+","credits":4}]
+},
+{"id": "c88734b3b723467c95006dba65026a27",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"B","credits":4}]
+},
+{"id": "931ab5921d8543fa820ff526d08f936a",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"MATH-121","grade":"C+","credits":4}]
+},
+{"id": "214d399dbe7a4262b0d727d660061db5",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4}]
+},
+{"id": "849e0bad237a4c0a92d7fe4f164b0a36",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"F","credits":4}]
+},
+{"id": "e3675acb95e649e699eb2359748c0d09",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4}]
+},
+{"id": "56e3ba2e6fb3446488dbc2fc5dbd9e8a",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4}]
+},
+{"id": "568aed5b44e942fe8b2114083f5bae35",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4}]
+},
+{"id": "3a2b31a843ef4bea91922d92af44a2b0",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4}]
+},
+{"id": "ee6a4e6652e344eea7c886491f80c772",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+},
+{"id": "3bf30ed4a9f747b08b37ba08b8bcd367",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4}]
+},
+{"id": "469662c306ea4cdc93231a74814bc188",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4},
+{"name":"MATH-115","grade":"D","credits":4}]
+},
+{"id": "243df409353f488699518e85bf0d0405",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"D+","credits":4}]
+},
+{"id": "f3bc3136cd2a4f5f9d546258cc436e83",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4}]
+},
+{"id": "98d07bf3938f4805892340af11851f5f",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4}]
+},
+{"id": "2ff472833ae94f55b599b44666b68a0a",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "d891245592d64bed8efbd92e532a3f61",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4}]
+},
+{"id": "94f9e2df6d394b8eb79319531f89a8ee",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"MATH-121","grade":"D","credits":4}]
+},
+{"id": "fdb42cf4c1c44689a747d5e7fcc11c04",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4}]
+},
+{"id": "6d1bb9f9c84f481ca6be618e728c9d46",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A-","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"F","credits":4}]
+},
+{"id": "0de3d07241264008b8ea1eebeea841ba",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"CIS-115","grade":"A","credits":4}]
+},
+{"id": "5807c392aa6e4813b0ad535c3d2d1280",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+},
+{"id": "99637546d9f749f19436e10dcb8752e1",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4},
+{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "b62ad97665c440b68605f62421df27ac",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+},
+{"id": "0cf61dc9559a4b2487e37e70fcd6b12c",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4}]
+},
+{"id": "3ba3f00635ae4296b857e64d3ba48cf0",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4}]
+},
+{"id": "5ac074c1df8d4bf8b2876200789f3a43",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "c88fbe99a4194efd965af90de35e26af",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"D-","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "63b686d6cf934b669b00625209d0cbfa",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B-","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"CIS-115","grade":"D","credits":4}]
+},
+{"id": "db0e34080f584989b916b3d067c8ab51",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "4af0693315634ba78c5bb3bcb5f97407",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "62b0507c5cf142f292081f01d56e0ce6",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4}]
+},
+{"id": "dbc82ba12fcb4576970dfb5be27c1c11",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4},
+{"name":"MATH-115","grade":"C","credits":4},
+{"name":"MATH-121","grade":"C-","credits":4}]
+},
+{"id": "52e1527a4df8443c8ec002f54f34f476",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4}]
+},
+{"id": "aceec984d06a4e6d915a8e80720ac361",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4}]
+},
+{"id": "87af37c4802d4c728242e4f1021e8170",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D+","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4},
+{"name":"MATH-121","grade":"F","credits":4}]
+},
+{"id": "5cfb23ca8c13430c87f31a68cc82c152",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"D+","credits":4}]
+},
+{"id": "4f29390f95e84903b6fc6bdc329c7ffa",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4},
+{"name":"MATH-121","grade":"B-","credits":4}]
+},
+{"id": "1a118a41b4b94a10a6a3dd3561b6fcd0",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"A-","credits":4},
+{"name":"MATH-121","grade":"A","credits":4}]
+},
+{"id": "61f78853c80a4cac8fb4ba2962915ef5",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4}]
+},
+{"id": "d6d83be0d2d44f88a6aa3fa069a9bfcc",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"C-","credits":4}]
+},
+{"id": "205b64f2597b4905a5e84348cf8cd18d",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"A-","credits":4},
+{"name":"CIS-115","grade":"C+","credits":4}]
+},
+{"id": "18b523099e7548ba8d044a06c8ae24fb",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"F","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "e235f8f871704cc28f79e58527cf1223",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+},
+{"id": "16c704fdefd1439a87b4c3ac08942ab3",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C","credits":4}]
+},
+{"id": "73724de77a2743308f2a19d8499f8087",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4}]
+},
+{"id": "523d166097b543a087207940f5fe78ba",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B","credits":4}]
+},
+{"id": "66357717ea6d4507aed9462055d94e18",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"B-","credits":4},
+{"name":"CIS-115","grade":"B+","credits":4}]
+},
+{"id": "09e8847caf7a446bba15b8a2e33693f3",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C-","credits":4}]
+},
+{"id": "6de38991ad4545fcb51bbcba473cbd15",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"B+","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4},
+{"name":"MATH-121","grade":"D+","credits":4}]
+},
+{"id": "7abc6d0916af49b3b45c1ad3d922a447",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"A","credits":4},
+{"name":"MATH-115","grade":"C+","credits":4}]
+},
+{"id": "79bf9960853449f0adbb100adba57889",
+"programming_experience": true,
+"courses": [
+{"name":"MATH-098","grade":"D-","credits":4},
+{"name":"MATH-115","grade":"B","credits":4},
+{"name":"CIS-115","grade":"B","credits":4}]
+},
+{"id": "af94744310dc4b57935f727725852cb3",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"C+","credits":4}]
+},
+{"id": "79ef35a7146347e7bc96a4664cf2db76",
+"programming_experience": false,
+"courses": [
+{"name":"MATH-098","grade":"D","credits":4}]
+}
+]}
