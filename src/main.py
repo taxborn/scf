@@ -8,13 +8,14 @@ def main():
     if inp == 1: CS()
     elif inp == 2: MIS()
     elif inp == 3: CIT()
-    elif inp ==4: HI()
+    elif inp == 4: HI()
     else:
         print("Invalid input")
 def CS():
     # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
     # data. Currently use this template in `students_generator.js`.
-
+    # Step 0: Set course failure rates, each index corresponds to the index in courses.
+    failure_rates = [.1, .1, .1, .1, .1, .1, .1, .1, .1, .1]
     # Step 1: Create the courses
     math098 = Course("MATH-098", 4, "C-")
     math121 = Course("MATH-121", 4, "C-")
@@ -45,7 +46,7 @@ def CS():
     # Print the current class sizes
     course_printer(courses)
 
-    course_failure_rates(courses)
+    course_failure_rates(courses, failure_rates)
 
     # Step 5: Simulate a core class semester
     courses = course_updater(courses)
@@ -56,7 +57,8 @@ def CS():
 def MIS():
     # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
     # data. Currently use this template in `students_generator.js`.
-
+    # Step 0: Set course failure rates, each index corresponds to the index in courses.
+    failure_rates = [.1, .1, .1, .1, .1, .1]
     # Step 1: Create the courses
     math098 = Course("MATH-098", 4, "C-")
     math121 = Course("MATH-121", 4, "C-")
@@ -94,7 +96,8 @@ def MIS():
 def CIT():
     # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
     # data. Currently use this template in `students_generator.js`.
-
+    # Step 0: Set course failure rates, each index corresponds to the index in courses.
+    failure_rates = [.1, .1, .1, .1, .1, .1, .1]
     # Step 1: Create the courses
     math098 = Course("MATH-098", 4, "C-")
     math121 = Course("MATH-121", 4, "C-")  # S1
@@ -172,7 +175,6 @@ def course_updater(courses):
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         # Switch 0.75 here with the classes failure rate
-        print(courses[i].get_failure_rate())
         courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
     return courses
 def course_failure_rates(courses: list, failure_rates: list):

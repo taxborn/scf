@@ -103,15 +103,14 @@ class Student:
         # Fill the dictionary with { course obj: [grade(s) the student got] }
         for (course, grade) in self.course_history:
             if course.course_name.upper().startswith(start.upper()):
-                class_history.setdefault(course,
-                                         []).append(grade)
+                class_history.setdefault(course, []).append(grade)
 
         return class_history
 
     def highest_course_taken(self, starting_course_name: str, courses, recursed=False):
         """
         Get the highest course the student has taken of a given major. We can
-        assume a linear past since most students follow the path (?). To
+        assume a linear progression since most students follow the path (?). To
         compute this, we also assume that the course(s) have been populated
         with their prerequisites and their respective classes they are
         prerequisites of.
