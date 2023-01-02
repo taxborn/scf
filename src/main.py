@@ -3,6 +3,7 @@ from models.student import Student
 from models.course import Course
 
 def main():
+
     print("Which major do you want to run stats for?:\n1. CS\n2. MIS\n3. CIT\n4. HI")
     inp = int(input("input number:"))
     if inp == 1: CS()
@@ -122,6 +123,7 @@ def CIT():
     # Step 4: Populate each course with their respective class sizes.
     Course.update_course_sizes(students, courses)
 
+    print("\n")
     # Print the current class sizes
     course_printer(courses)
 
