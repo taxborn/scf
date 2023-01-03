@@ -2,8 +2,8 @@ import utils
 from models.student import Student
 from models.course import Course
 
-def main():
 
+def main():
         print("Which major do you want to run stats for?:\n1. CS\n2. MIS\n3. CIT\n4. HI")
         inp = int(input("input number:"))
         if inp == 1: CS()
@@ -15,8 +15,6 @@ def main():
             exit(0)
         main()
 def CS():
-    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
-    # data. Currently use this template in `students_generator.js`.
     # Step 0: Set course failure rates, each index corresponds to the index in courses.
     core_failure_rates = [.1, .1, .1, .1, .1]
     math_failure_rates = [.1, .1, .1, .1, .1]
@@ -39,9 +37,8 @@ def CS():
     core_courses = [cis115, cis121, cis122, cis223, cis224]
 
     data_printer(core_courses, math_courses, core_failure_rates, math_failure_rates)
+
 def MIS():
-    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
-    # data. Currently use this template in `students_generator.js`.
     # Step 0: Set course failure rates, each index corresponds to the index in courses.
     core_failure_rates = [.1, .1, .1, .1, .1, .1]
     math_failure_rates = [.1, .1]
@@ -60,15 +57,14 @@ def MIS():
 
     data_printer(core_courses, math_courses, core_failure_rates, math_failure_rates)
 
+
 def CIT():
-    # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
-    # data. Currently use this template in `students_generator.js`.
     # Step 0: Set course failure rates, each index corresponds to the index in courses.
     core_failure_rates = [.1, .1, .1, .1, .1]
     math_failure_rates = [.1, .1]
     # Step 1: Create the courses
     math098 = Course("MATH-098", 4, "C-")
-    math121 = Course("MATH-121", 4, "C-") # S1
+    math121 = Course("MATH-121", 4, "C-")  # S1
     cis115 = Course("CIS-115", 4, "C-")
     cis121 = Course("CIS-121", 4, "C-")  # F2
     cis122 = Course("CIS-122", 4, "C-")  # S1
@@ -79,10 +75,9 @@ def CIT():
     # Course up to one another
     core_courses = [cis115, cis121, cis122, cis223, cis224]
     math_courses = [math098, math121]
-
     data_printer(core_courses, math_courses, core_failure_rates, math_failure_rates)
 def HI():
-    #https://www.mnsu.edu/academics/academic-catalog/undergraduate/health-informatics/health-informatics-bs/#:~:text=The%20Health%20Informatics%20program%20prepares,delivery%2C%20management%2C%20and%20research.
+    # https://www.mnsu.edu/academics/academic-catalog/undergraduate/health-informatics/health-informatics-bs/#:~:text=The%20Health%20Informatics%20program%20prepares,delivery%2C%20management%2C%20and%20research.
     # Step 0: Set course failure rates, each index corresponds to the index in courses.
     core_failure_rates = [.1, .1, .1]
     math_failure_rates = [.1, .1]
@@ -92,7 +87,6 @@ def HI():
     cis115 = Course("CIS-115", 4, "C-")
     cis121 = Course("CIS-121", 4, "C-")
     cis223 = Course("CIS-223", 4, "C-")
-
 
     # Step 2: Create a course sequence. All this is doing is hooking each
     # Course up to one another
@@ -125,23 +119,28 @@ def data_printer(core_courses, math_courses, core_failure_rates, math_failure_ra
         math_courses = course_updater(math_courses)
         course_printer(math_courses)
 
+
 def course_updater(courses):
-    #TODO Could add and update semester here
+    # TODO Could add and update semester here
     # Step 5: Simulate a core class semester
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         # Switch 0.75 here with the classes failure rate
-        courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
+        courses[i].course_size = int(
+            (1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
     return courses
+    
 def set_course_failure_rates(courses: list, failure_rates: list):
     for i in range(len(courses)):
         courses[i].set_failure_rate(failure_rates[i])
     return courses
 
+
 def course_printer(courses: list):
     print("=================================================\n")
     for course in courses:
         course.print_course()
+
 
 if __name__ == "__main__":
     main()
