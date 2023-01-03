@@ -66,15 +66,34 @@ class Course:
 
     def update_course_sizes(students, courses):
         for student in students:
-            # print("student: Id={} GPA={} DFW={}".format(student.student_id, student.gpa, student.dfw_rate))
-            # print("has taken " + str(len(student.course_history)) + " classes.\n")
-            # get the students highest course
+            # get the students highest CIS course
             highest_cis = student.highest_course_taken("CIS-115", courses)
+
+            # Now that we got the highest CIS course the student has taken,
+            # we can see if that course is a prereq for another course. If it
+            # is, the student is in the next highest CIS course and we should
+            # update the next course's size. Otherwise, the student is at the
+            # end of the course sequence, and are not in any of the lower
+            # CIS classes
             if highest_cis:
-                highest_cis.course_size += 1
+                if len(highest_cis.prereq_for) > 0:
+                    highest_cis.prereq_for[0].course_size += 1
+
             highest_math = student.highest_course_taken("MATH-098", courses)
+
+            # Now that we got the highest MATH course the student has taken,
+            # we can see if that course is a prereq for another course. If it
+            # is, the student is in the next highest MATH course and we should
+            # update the next course's size. Otherwise, the student is at the
+            # end of the course sequence, and are not in any of the lower
+            # MATH classes
             if highest_math:
-                highest_math.course_size += 1
+                if len(highest_math.prereq_for) > 0:
+                    print("Class to update: " +
+                          highest_math.prereq_for[0].course_name)
+                    print("before:" + str(highest_math.prereq_for[0].course_size))
+                    highest_math.prereq_for[0].course_size += 1
+                    print("after:" + str(highest_math.prereq_for[0].course_size))
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""
