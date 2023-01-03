@@ -132,7 +132,6 @@ class Student:
         if course not in to_search:
             return None
 
-        # TODO: Change to and course is in self.course_history
         if len(course.see_prereq_for()) == 0:
             # this is the last class in the sequence
             return course
