@@ -244,6 +244,11 @@ def generate_cit_students(filename, existing_students, incoming_students):
         # Generate the CIS courses
         generate_cis(file, num_of_cis_classes, incoming_students, False)
 
+        if i != incoming_students - 1:
+            file.write("]\n},\n")
+        else:
+            file.write("]\n}\n")
+
     # close the header
     file.write("]}")
     # close the file
