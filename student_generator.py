@@ -54,8 +54,6 @@ def generate_cs_students(filename, existing_students, incoming_students):
         num_of_math_classes = random.randint(1, len(math_courses) - 1)
         num_of_cis_classes = random.randint(1, len(cis_courses))
 
-        retake_roll = random.randint(0, 99)
-
         # Generate the math courses
         generate_math(file, num_of_math_classes, existing_students)
 
@@ -129,8 +127,6 @@ def generate_mis_students(filename, existing_students, incoming_students):
         # This determines how far they go in the courses
         num_of_math_classes = random.randint(1, 3)
         num_of_cis_classes = random.randint(1, len(cis_courses) - 1)
-
-        retake_roll = random.randint(0, 99)
 
         # Generate the math courses
         generate_math(file, num_of_math_classes, existing_students)
@@ -206,8 +202,6 @@ def generate_cit_students(filename, existing_students, incoming_students):
         num_of_math_classes = random.randint(1, 3)
         num_of_cis_classes = random.randint(1, len(cis_courses))
 
-        retake_roll = random.randint(0, 99)
-
         # Generate the math courses
         generate_math(file, num_of_math_classes, existing_students)
 
@@ -277,8 +271,6 @@ def generate_hi_students(filename, existing_students, incoming_students):
         num_of_math_classes = random.randint(1, 3)
         num_of_cis_classes = random.randint(1, len(cis_courses))
 
-        retake_roll = random.randint(0, 99)
-
         # Generate the math courses
         generate_math(file, num_of_math_classes, existing_students)
 
@@ -335,17 +327,17 @@ def generate_hi_students(filename, existing_students, incoming_students):
 def generate_math(file, num_of_math_classes, num_of_students, existing=True):
     for course in range(num_of_math_classes):
         retake_roll = random.randint(0, 99)
-        grade = random.randint(0, len(grades) - 1)
+        initial_grade = random.randint(0, len(grades) - 1)
         string = "{\"name\":\"" + math_courses[course][0] + \
-            "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
+            "\",\"grade\":\"" + grades[initial_grade] + "\",\"credits\":" + \
             str(math_courses[course][1]) + "}"
 
         file.write(string)
         # Give the course a chance of being retaken, or if the initial class' grade was low enough
-        if existing and (retake_roll <= retake_probability * 100 or grade > 7):
+        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 7):
             # we always want to print a comma before a retake
             file.write(",")
-            grade = random.randint(grade, len(grades) - 1)
+            grade = random.randint(0, initial_grade)
             string = "{\"name\":\"" + math_courses[course][0] + \
                 "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                 str(math_courses[course][1]) + "}"
@@ -359,17 +351,18 @@ def generate_math(file, num_of_math_classes, num_of_students, existing=True):
 def generate_cis(file, num_of_cis_classes, num_of_students, existing=True):
     for course in range(num_of_cis_classes):
         retake_roll = random.randint(0, 99)
-        grade = random.randint(0, len(grades) - 1)
+        initial_grade = random.randint(0, len(grades) - 1)
         string = "{\"name\":\"" + cis_courses[course][0] + \
-            "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
+            "\",\"grade\":\"" + grades[initial_grade] + "\",\"credits\":" + \
             str(cis_courses[course][1]) + "}"
 
         file.write(string)
+
         # Give the course a chance of being retaken, or if the initial class' grade was low enough
-        if existing and (retake_roll <= retake_probability * 100 or grade > 7):
+        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 7):
             # we always want to print a comma before a retake
             file.write(",")
-            grade = random.randint(grade, len(grades) - 1)
+            grade = random.randint(0, initial_grade)
             string = "{\"name\":\"" + cis_courses[course][0] + \
                 "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                 str(cis_courses[course][1]) + "}"
