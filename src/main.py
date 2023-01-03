@@ -4,14 +4,16 @@ from models.course import Course
 
 def main():
 
-    print("Which major do you want to run stats for?:\n1. CS\n2. MIS\n3. CIT\n4. HI")
-    inp = int(input("input number:"))
-    if inp == 1: CS()
-    elif inp == 2: MIS()
-    elif inp == 3: CIT()
-    elif inp == 4: HI()
-    else:
-        print("Invalid input")
+        print("Which major do you want to run stats for?:\n1. CS\n2. MIS\n3. CIT\n4. HI")
+        inp = int(input("input number:"))
+        if inp == 1: CS()
+        elif inp == 2: MIS()
+        elif inp == 3: CIT()
+        elif inp == 4: HI()
+        else:
+            print("Invalid input")
+            exit(0)
+        main()
 def CS():
     # Used https://app.json-generator.com/zT_NwqNKE-l1 to generate the random
     # data. Currently use this template in `students_generator.js`.
@@ -85,7 +87,7 @@ def HI():
     core_failure_rates = [.1, .1, .1]
     math_failure_rates = [.1, .1]
     # Step 1: Create the courses
-    math115 = Course("MATH-115", 4, "C-")
+    math115 = Course("MATH-098", 4, "C-")
     math121 = Course("MATH-121", 4, "C-")
     cis115 = Course("CIS-115", 4, "C-")
     cis121 = Course("CIS-121", 4, "C-")
@@ -113,10 +115,10 @@ def data_printer(core_courses, math_courses, core_failure_rates, math_failure_ra
     Course.update_course_sizes(students_core, core_courses)
     Course.update_course_sizes(students_math, math_courses)
 
-    course_failure_rates(core_courses, core_failure_rates)
-    course_failure_rates(math_courses, math_failure_rates)
+    set_course_failure_rates(core_courses, core_failure_rates)
+    set_course_failure_rates(math_courses, math_failure_rates)
 
-    # Step 5: Simulate a semester
+    # Step 5: Simulate semesters
     for i in range(20):
         core_courses = course_updater(core_courses)
         course_printer(core_courses)
@@ -129,18 +131,17 @@ def course_updater(courses):
     for i in range(len(courses) - 1, 0, -1):
         # Update the population here through indexing
         # Switch 0.75 here with the classes failure rate
-        print(courses[i].course_size, courses[i].course_name,"++:", courses[i-1].course_size, courses[i-1].course_name)
         courses[i].course_size = int((1 - courses[i].get_failure_rate()) * courses[i - 1].course_size)
     return courses
-def course_failure_rates(courses: list, failure_rates: list):
+def set_course_failure_rates(courses: list, failure_rates: list):
     for i in range(len(courses)):
         courses[i].set_failure_rate(failure_rates[i])
     return courses
 
 def course_printer(courses: list):
-    print("==========================")
+    print("=================================================\n")
     for course in courses:
         course.print_course()
 
 if __name__ == "__main__":
-    HI()
+    main()
