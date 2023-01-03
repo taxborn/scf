@@ -1,10 +1,12 @@
-# Winter project
-Winter 2022 project. Utilizes [Python](https://www.python.org/) and
+# Student Retention Forecaster (srf)
+A Winter 2022 student project working with Minnesota State University, Mankato. The srf 
+cab be used to simulate a number of students, courses, and sections through a given 
+course sequence. Created with [Python](https://www.python.org/) and
 [Pip](https://pypi.org/project/pip/). 
 
 # Running the code
-Currently the only requirements are [pytest](https://docs.pytest.org/en/7.2.x/),
-which can be installed with the command:
+Currently the only requirements are [pytest](https://docs.pytest.org/en/7.2.x/) for rudimentary
+testing, which can be installed with the command:
 ```
 pip install -r requirements.txt
 ```
