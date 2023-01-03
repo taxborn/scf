@@ -54,7 +54,7 @@ def generate_cs_students(filename, existing_students, incoming_students):
         # student header
         file.write(student_header())
         # This determines how far they go in the courses
-        num_of_math_classes = random.randint(1, len(math_courses))
+        num_of_math_classes = random.randint(1, len(math_courses) - 1)
         num_of_cis_classes = random.randint(1, len(cis_courses))
 
         retake_roll = random.randint(0, 99)
@@ -89,7 +89,7 @@ def generate_cs_students(filename, existing_students, incoming_students):
             # Give the course a chance of being retaken.
             if retake_roll <= retake_probability * 100:
                 grade = random.randint(0, len(grades) - 1)
-                string = "{\"name\":\"" + math_courses[course][0] + \
+                string = "{\"name\":\"" + cis_courses[course][0] + \
                     "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                     str(cis_courses[course][1]) + "}"
 
@@ -233,7 +233,7 @@ def generate_mis_students(filename, existing_students, incoming_students):
             # Give the course a chance of being retaken.
             if retake_roll <= retake_probability * 100:
                 grade = random.randint(0, len(grades) - 1)
-                string = "{\"name\":\"" + math_courses[course][0] + \
+                string = "{\"name\":\"" + cis_courses[course][0] + \
                     "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                     str(cis_courses[course][1]) + "}"
 
@@ -377,7 +377,7 @@ def generate_cit_students(filename, existing_students, incoming_students):
             # Give the course a chance of being retaken.
             if retake_roll <= retake_probability * 100:
                 grade = random.randint(0, len(grades) - 1)
-                string = "{\"name\":\"" + math_courses[course][0] + \
+                string = "{\"name\":\"" + cis_courses[course][0] + \
                     "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                     str(cis_courses[course][1]) + "}"
 
@@ -521,7 +521,7 @@ def generate_hi_students(filename, existing_students, incoming_students):
             # Give the course a chance of being retaken.
             if retake_roll <= retake_probability * 100:
                 grade = random.randint(0, len(grades) - 1)
-                string = "{\"name\":\"" + math_courses[course][0] + \
+                string = "{\"name\":\"" + cis_courses[course][0] + \
                     "\",\"grade\":\"" + grades[grade] + "\",\"credits\":" + \
                     str(cis_courses[course][1]) + "}"
 
@@ -619,54 +619,6 @@ def student_header(exp: bool = True):
     # TODO: Major?
     string += "\"courses\": [\n"
     return string
-
-
-def generate_existing_students(file, existing, retake_prob):
-    for i in range(existing):
-        # student header
-        file.write(student_header())
-        # This determines how far they go in the courses
-        num_of_courses = random.randint(2, len(courses))
-        retake_roll = random.randint(0, 99)
-
-        for course in range(num_of_courses):
-            # Give the course a chance of being retaken.
-            if retake_roll <= retake_prob * 100:
-                file.write(print_course(course, num_of_courses, True))
-                # we always want to print a comma
-                file.write(",")
-
-            file.write(print_course(course, num_of_courses))
-
-        file.write("]\n},")
-
-
-def generate_incoming_students(file, number_incoming, prob_has_programming):
-    for i in range(number_incoming):
-        # when a student is coming in, they may or may not have programming
-        # experience
-        programming_exp = random.randint(0, 99)
-        has_experience = programming_exp < prob_has_programming * 100
-        file.write(student_header(has_experience))
-
-        # This determines how far they go in the courses
-        # If they do not have experience, they are placed in CIS-115 no matter
-        # their math level
-        if has_experience:
-            # TODO: Then consider their math level
-            courses_student_takes = random.randint(2, 4)
-        else:
-            courses_student_takes = 3
-
-        for course in range(courses_student_takes):
-            file.write(print_course(course, courses_student_takes))
-            # For each course, generate a grade
-
-            file.write("\n")
-        file.write("]\n}")
-
-        if i != number_incoming - 1:
-            file.write(",\n")
 
 
 def print_course(course, courses_student_takes, ignore_trailing: bool = False):
