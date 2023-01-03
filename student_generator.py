@@ -51,7 +51,7 @@ def generate_cs_students(filename, existing_students, incoming_students):
         # student header
         file.write(student_header())
         # This determines how far they go in the courses
-        num_of_math_classes = random.randint(1, len(math_courses) - 1)
+        num_of_math_classes = random.randint(2, len(math_courses))
         num_of_cis_classes = random.randint(1, len(cis_courses))
 
         # Generate the math courses
@@ -69,7 +69,7 @@ def generate_cs_students(filename, existing_students, incoming_students):
     """
     for i in range(incoming_students):
         # This determines how far they go in the courses
-        num_of_math_classes = random.randint(1, len(math_courses) - 1)
+        num_of_math_classes = random.randint(1, len(math_courses))
         num_of_cis_classes = random.randint(1, len(cis_courses) - 1)
 
         # when a student is coming in, they may or may not have programming
@@ -339,7 +339,7 @@ def generate_math(file, num_of_math_classes, num_of_students, existing=True):
 
         file.write(string)
         # Give the course a chance of being retaken, or if the initial class' grade was low enough
-        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 7):
+        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 6):
             # we always want to print a comma before a retake
             file.write(",")
             grade = random.randint(0, initial_grade)
@@ -364,7 +364,7 @@ def generate_cis(file, num_of_cis_classes, num_of_students, existing=True):
         file.write(string)
 
         # Give the course a chance of being retaken, or if the initial class' grade was low enough
-        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 7):
+        if existing and (retake_roll <= retake_probability * 100 or initial_grade > 6):
             # we always want to print a comma before a retake
             file.write(",")
             grade = random.randint(0, initial_grade)
