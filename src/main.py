@@ -221,18 +221,21 @@ def all():
 
     new_size = cs_starting_size + mis_starting_size + \
         cit_starting_size + hi_starting_size
+    math_courses = courses[:6]
+    cis_courses = courses[6:]
+    Course.create_course_sequence(math_courses)
+    Course.create_course_sequence(cis_courses)
+
+    math098.course_size += new_size
+    cis115.course_size += new_size
 
     # Step 5: Simulate semesters
     for i in range(semesters_to_simulate):
-        math098.course_size += new_size
-        cis115.course_size += new_size
-
         print(f"{'':-^50}")
         message = f"Projecting course sizes {i + 1} semester(s) out"
         print(f"|{message:^48}|")
         print(f"{'':-^50}\n")
         courses = course_updater(courses)
-
         course_printer(courses)
 
 
