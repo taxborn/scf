@@ -19,13 +19,13 @@ prob_programming_exp = 0.20
 def main():
 
     # The number of existing and incoming Computer Science majors
-    existing_cs, incoming_cs = 300, 100
+    existing_cs, incoming_cs = 70, 106
     # The number of existing and incoming Management Information Science majors
-    existing_mis, incoming_mis = 300, 100
+    existing_mis, incoming_mis = 54, 17
     # The number of existing and incoming Computer Information Technology majors
-    existing_cit, incoming_cit = 300, 100
+    existing_cit, incoming_cit = 224, 64
     # The number of existing and incoming Health Informatic majors
-    existing_hi, incoming_hi = 300, 100
+    existing_hi, incoming_hi = 8, 1
 
     generate_cs_students("students-cs.json", existing_cs, incoming_cs)
     generate_mis_students("students-mis.json", existing_mis, incoming_mis)

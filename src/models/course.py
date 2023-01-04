@@ -18,8 +18,7 @@ class Course:
         # self.attempted_to_register = False
         # TODO: figure out a way to attach semester taken for the course,
         # shouldn't be too hard, but utilizing the random data generator might
-        # make this weird for working with test data. Might need to figure out
-        # a way to programatically generate the test data.
+        # make this weird for working with test data. 
 
     def is_math_course(self, is_math: bool | None = None) -> bool:
         """
@@ -89,11 +88,7 @@ class Course:
             # MATH classes
             if highest_math:
                 if len(highest_math.prereq_for) > 0:
-                    print("Class to update: " +
-                          highest_math.prereq_for[0].course_name)
-                    print("before:" + str(highest_math.prereq_for[0].course_size))
                     highest_math.prereq_for[0].course_size += 1
-                    print("after:" + str(highest_math.prereq_for[0].course_size))
 
     def add_prereq(self, course):
         """Adds given course to prereq list."""

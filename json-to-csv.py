@@ -41,7 +41,8 @@ def print_student(major, student):
 
     # Writing data of CSV
     for course in student["courses"]:
-        output.append("({}: {})".format(course["name"], course["grade"]))
+        output.append(course["name"])
+        output.append(course["grade"])
 
     csv_writer.writerow(output)
 
