@@ -21,9 +21,6 @@ def get_list_of_students(path: str, courses: list[Course]) -> list[Student]:
                 # will occur but might as well keep it and see what happens
                 print("BADBADBADBADBADBABDABDBADBADABAD")
                 print("potential new course found: " + course["name"])
-                print("courses: ")
-                for crs in courses:
-                    print("name: " + crs.course_name)
             else:
                 crs = Course.get_course_by_name(course["name"], courses)
                 crss.append((crs, course["grade"]))
