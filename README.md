@@ -1,6 +1,6 @@
-# Student Retention Forecaster (srf)
+# Student Capacity Forecaster (scf)
 A Winter 2022 student project working with Minnesota State University, Mankato. The srf 
-cab be used to simulate a number of students, courses, and sections through a given 
+cab be used to determine student capacity planning, courses, and sections through a given 
 course sequence. Created with [Python](https://www.python.org/) and
 [Pip](https://pypi.org/project/pip/). 
 
