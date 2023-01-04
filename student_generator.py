@@ -274,7 +274,7 @@ def generate_hi_students(filename, existing_students, incoming_students):
         file.write(student_header())
         # This determines how far they go in the courses
         num_of_math_classes = random.randint(1, 3)
-        num_of_cis_classes = random.randint(1, len(cis_courses))
+        num_of_cis_classes = random.randint(1, len(cis_courses) - 2)
 
         # Generate the math courses
         generate_math(file, num_of_math_classes, existing_students)
