@@ -207,6 +207,10 @@ def all():
     loading = f"For a total of {len(students)} students"
     print(f"|{loading:^48}|")
     print(f"|{'':-^48}|")
+    new_size = cs_starting_size + mis_starting_size + \
+        cit_starting_size + hi_starting_size
+    loading = f"With {new_size} students incoming / semester"
+    print(f"|{loading:^48}|")
     loading = f"Forecasting {semesters_to_forecast} semesters into the future"
     print(f"|{loading:^48}|")
     print(f"{'':-^50}\n")
@@ -219,8 +223,6 @@ def all():
     failure_rates = [.1, .1, .1, .1, .1, .1, .1, .1, .1, .1, .1]
     set_course_failure_rates(courses, failure_rates)
 
-    new_size = cs_starting_size + mis_starting_size + \
-        cit_starting_size + hi_starting_size
     math_courses = courses[:6]
     cis_courses = courses[6:]
     Course.create_course_sequence(math_courses)
